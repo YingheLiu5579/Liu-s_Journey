@@ -1,0 +1,48 @@
+project:
+  type: website
+
+website:
+  description: "Yinghe Liu's personal website and blog."
+  navbar:
+    left:
+    - About.qmd
+    - text: "About me"
+      menu: 
+      - Lifestory.qmd
+      - Academe.qmd
+      - CV.qmd
+    - index.qmd
+    right:
+    - icon: discord
+      href: https://discordapp.com/users/1143984722620448839
+    - icon: github
+      href: https://github.com/YingheLiu5579
+    - icon: envelope
+      href: mailto:yingheliu@outlook.com
+  back-to-top-navigation: false
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    highlight:
+      theme: github
+      version: 9.18.1
+    smooth-scroll: true
+    citations-hover: true
+    footnotes-hover: true
+    title-block-banner: True
+    code-fold: true
+    code-summary: "Show the code"
+    code-block-bg: true
+    code-copy: false
+    code-link: true
+    anchor-sections: true
+    link-external-icon: false
+    link-external-newwindow: true
+
+editor: visual
+comments:
+  hypothesis: 
+    theme: clean
+    showHighlights: true

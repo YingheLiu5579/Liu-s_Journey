@@ -1,0 +1,36 @@
+---
+title: "My Practice of Electrodermal Activity Data (EDA)."
+author: "Yinghe Liu"
+date: "2023-12-29"
+date-modified: "2023-12-30"
+categories: [Academe, Electrodermal Activity] 
+image: EDA electrodes.png
+description: "Share my practice of electrodermal activity data."
+---
+
+I begin my practice with electrodermal activity data (EDA) from a project named Parent Regulation, Engagement, Stress, and Health ([PRESH](https://csc.la.psu.edu/research/funded-research-projects/parent-regulation-engagement-stress-and-health-presh/)) Study. The study is lead by professor Lunkenheimer and administered in Penn State. I am a research assistant that helps with data collection, a job common for a undergraduate. 
+
+The PRESH study aims to investigate the relationship between parent-child interaction and children's health. More specifically, the study focuses on how the parent-child reaction pattern reacts with disciplinary practices. In conceptual terms, the study is interested in how parent and child's physiological reaction to each other and disciplinary practices within th framework of laboratory settings. Parents and children are asked to perform a series of tasks, including the Parent-Child Challenge Task (PCCT) and the Trier Social Stress Test (TSST). We collect Heart rate, electrodermal activity, and respiratory rate in both PCCT and TSST. In this post, I will focus on EDA data. 
+
+
+
+> 
+**[PCCT](https://onlinelibrary.wiley.com/doi/abs/10.1002/icd.1965)** is a 15-minute task that includes a free play, a challenging puzzle task, and a clean-up task. The free play is designed to observe how parents and children interact with each other in a naturalistic, less stressful setting; the puzzle task is intentioanlly above the child's ability to solve at the age of three, while clean-up task provides us an opportunity to peak into potential conflicts between parents and children that might lead to disciplinary practices. Overall, PCCT enables a contextual observation of parent-child interaction.
+
+> 
+**[TSST](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5314443/)** is a well-established stress-inducing task that focuses more on how one individual reacts to stress. The a 10-minute task contains a five-minute a five-minute speech and a five-minute math task. Just image that you are asked to give a speech in front of a group of people and then do some math problems without any feeedback from the interviewer. The stressful paradigm leads to stress-related response, such as physiological arousal and behavioral regulation. 
+
+As part of physio team in the PRESH study, I am responsible for EDA data cleaning but not later-on analysis. We separate the data collection staff and data analysis staff to avoid potential bias. I do not have much experience with EDA data, so I am learning from the very beginning. My first question is: **what is EDA**?
+
+> 
+**[Electrodermal activity (EDA)](https://www.sciencedirect.com/topics/medicine-and-dentistry/electrodermal-activity)** refers to small changes in the electrical activity of the skin, usually occurring 1–3 seconds following the onset of a stimulus. Since the late 19th century, it has been recognized as a useful measurement to estimate human emotional responses, especially under stressful situations. Historically, it has had many past names, such as sympathetic skin response (SSR) or skin conductance level (SCL). The term EDA is now used to refer to the entire electrodermal phenomenon, including both tonic and phasic components. 
+
+My training began in the early June of 2023. I was given a brief introduction of EDA and the data collection process and then taught how to use the software to clean the EDA data. Physio data are not always immediately usable and require cleaning based on raw data. The complexity of cleaning process depends on the type of data, varying dramatically from one to another. For example, EDA data are impacted by many artifacts, while heart rate data are relatively less demanding and less time-consuming.
+
+Here is the overall workflow of EDA data cleaning:
+
+![EDA data cleaning workflow](EDA process.png)
+
+We followed guidelines provided by out technique support [MindWare](https://support.mindwaretech.com/manuals/software/eda/3-2/). But the guidelines are not always clear and easy to follow. I will share my experience and practice in the following sections. A typical EDA cleaning process of one file (one parent and one child) takes me about 40 to 60 minutes. For messy files that require more attention, it can take up to 80 minutes. The cleaning process is time-consuming because we need to go through the entire file and check for artifacts. Once a file is editted, we update the result with the group and decide whether a doubling-edit is needed. EDA data are sensitive to artifacts, so we need to be careful with the cleaning process. We are aware of the potential bias introduced by the cleaning process, so we are trying to minimize the impact of cleaning process on the final result. Thus, we are trying to be as objective as possible by assigning the same raw data to different group memeber and compare the results. 
+
+I editted more than 30 files for the last few months, and am still learning and improving my skills. I will demonstrate my effort in quality control and issues we encountered during data cleaning in the following posts.

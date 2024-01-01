@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "我眼中的围棋\n\n\n\n\n\n\n\nNon-academe\n\n\nChinese\n\n\n\n\n十年业余爱好者对围棋的一些思考\n\n\n\n\n\n\nDec 30, 2023\n\n\nYinghe Liu\n\n\n\n\n\n\n  \n\n\n\n\nMy Practice of Electrodermal Activity Data (EDA).\n\n\n\n\n\n\n\nAcademe\n\n\nElectrodermal Activity\n\n\n\n\nShare my practice of electrodermal activity data.\n\n\n\n\n\n\nDec 29, 2023\n\n\nYinghe Liu\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog!\n\n\n\n\n\n\n\nAnnouncement\n\n\n\n\nSay Hello to the world! This is my first blog post.\n\n\n\n\n\n\nDec 29, 2023\n\n\nYinghe Liu\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Liu’s Journey",
+    "section": "",
+    "text": "This blog is built by Yinghe Liu, first launched in Dec 28th, 2023. I build this blog to record my life and share my thoughts. It may not be updated frequently, but I will try my best to keep it alive. I hope you enjoy reading my blog and also would like to hear your feedbacks about my blog. You may reach me by email or discord."
+  },
+  {
+    "objectID": "About_blog.html",
+    "href": "About_blog.html",
+    "title": "Liu’s Journey",
+    "section": "",
+    "text": "This blog is built by Yinghe Liu, first launched in Dec 28th, 2023. He’s currently a student major in psychology and passioned in how human react in stressful situations. He’s also a gamer and a big fan of the game of GO. He built this blog to record his life and share thoughts. It may not be updated frequently, but he will try his best to keep it alive."
+  },
+  {
+    "objectID": "Blog_index.html",
+    "href": "Blog_index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "我眼中的围棋\n\n\n\n\n\n\n\nNon-academe\n\n\nChinese\n\n\n\n\n十年业余爱好者对围棋的一些思考\n\n\n\n\n\n\nDec 30, 2023\n\n\nYinghe Liu\n\n\n\n\n\n\n  \n\n\n\n\nMy Practice of Electrodermal Activity Data (EDA).\n\n\n\n\n\n\n\nAcademe\n\n\nElectrodermal Activity\n\n\n\n\nShare my practice of electrodermal activity data.\n\n\n\n\n\n\nDec 29, 2023\n\n\nYinghe Liu\n\n\n\n\n\n\n  \n\n\n\n\nTech Problem Log\n\n\n\n\n\n\n\nAnnouncement\n\n\n\n\nAs a beginner, I will record some tech problems I met and how I solved them.\n\n\n\n\n\n\nDec 29, 2023\n\n\nYinghe Liu\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog!\n\n\n\n\n\n\n\nAnnouncement\n\n\n\n\nSay Hello to the world! This is my first blog post.\n\n\n\n\n\n\nDec 29, 2023\n\n\nYinghe Liu\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Lifestory.html",
+    "href": "Lifestory.html",
+    "title": "Lifestory",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "posts/say-hello!/Say_Hello.html",
+    "href": "posts/say-hello!/Say_Hello.html",
+    "title": "Welcome To My Blog!",
+    "section": "",
+    "text": "Welcome! This is my first blog post. At the end of 2023, blog seems to be out of fashion, but I still want to build up a place where I can share my thoughts and life stories. A personal website helps me concentrate on solidating the contents and organizing my thoughts.\nI tried many social media platforms such as Twitter or Weibo, yet sooner I realized the content provided by these social media distract me from creating considered outputs. They become more likely a place for me to consume information and interact with others. The feeds are rich, diverse, and sometimes overwhelming. Thus, I decided to build a more freestanding place for publishing.\nI was concerned about to what extend should I share my personal life. I am not sure if I should share my personal life stories, or just focus on the professional side. Would personal details scarify privacy and security? Would it be too much to share? I am still not sure about the answer, but I will try to balance the two sides. I said to myself:“Time to engage with the world, and share your thoughts with others.”"
+  },
+  {
+    "objectID": "posts/Reproductivity of Electrodermal Activity Data/My Practice of Electrodermal Activity Data.html",
+    "href": "posts/Reproductivity of Electrodermal Activity Data/My Practice of Electrodermal Activity Data.html",
+    "title": "My Practice of Electrodermal Activity Data (EDA).",
+    "section": "",
+    "text": "I begin my practice with electrodermal activity data (EDA) from a project named Parent Regulation, Engagement, Stress, and Health (PRESH) Study. The study is lead by professor Lunkenheimer and administered in Penn State. I am a research assistant that helps with data collection, a job common for a undergraduate.\nThe PRESH study aims to investigate the relationship between parent-child interaction and children’s health. More specifically, the study focuses on how the parent-child reaction pattern reacts with disciplinary practices. In conceptual terms, the study is interested in how parent and child’s physiological reaction to each other and disciplinary practices within th framework of laboratory settings. Parents and children are asked to perform a series of tasks, including the Parent-Child Challenge Task (PCCT) and the Trier Social Stress Test (TSST). We collect Heart rate, electrodermal activity, and respiratory rate in both PCCT and TSST. In this post, I will focus on EDA data.\n\nPCCT is a 15-minute task that includes a free play, a challenging puzzle task, and a clean-up task. The free play is designed to observe how parents and children interact with each other in a naturalistic, less stressful setting; the puzzle task is intentioanlly above the child’s ability to solve at the age of three, while clean-up task provides us an opportunity to peak into potential conflicts between parents and children that might lead to disciplinary practices. Overall, PCCT enables a contextual observation of parent-child interaction.\n\n\nTSST is a well-established stress-inducing task that focuses more on how one individual reacts to stress. The a 10-minute task contains a five-minute a five-minute speech and a five-minute math task. Just image that you are asked to give a speech in front of a group of people and then do some math problems without any feeedback from the interviewer. The stressful paradigm leads to stress-related response, such as physiological arousal and behavioral regulation.\n\nAs part of physio team in the PRESH study, I am responsible for EDA data cleaning but not later-on analysis. We separate the data collection staff and data analysis staff to avoid potential bias. I do not have much experience with EDA data, so I am learning from the very beginning. My first question is: what is EDA?\n\nElectrodermal activity (EDA) refers to small changes in the electrical activity of the skin, usually occurring 1–3 seconds following the onset of a stimulus. Since the late 19th century, it has been recognized as a useful measurement to estimate human emotional responses, especially under stressful situations. Historically, it has had many past names, such as sympathetic skin response (SSR) or skin conductance level (SCL). The term EDA is now used to refer to the entire electrodermal phenomenon, including both tonic and phasic components.\n\nMy training began in the early June of 2023. I was given a brief introduction of EDA and the data collection process and then taught how to use the software to clean the EDA data. Physio data are not always immediately usable and require cleaning based on raw data. The complexity of cleaning process depends on the type of data, varying dramatically from one to another. For example, EDA data are impacted by many artifacts, while heart rate data are relatively less demanding and less time-consuming.\nHere is the overall workflow of EDA data cleaning:\n\n\n\nEDA data cleaning workflow\n\n\nWe followed guidelines provided by out technique support MindWare. But the guidelines are not always clear and easy to follow. I will share my experience and practice in the following sections. A typical EDA cleaning process of one file (one parent and one child) takes me about 40 to 60 minutes. For messy files that require more attention, it can take up to 80 minutes. The cleaning process is time-consuming because we need to go through the entire file and check for artifacts. Once a file is editted, we update the result with the group and decide whether a doubling-edit is needed. EDA data are sensitive to artifacts, so we need to be careful with the cleaning process. We are aware of the potential bias introduced by the cleaning process, so we are trying to minimize the impact of cleaning process on the final result. Thus, we are trying to be as objective as possible by assigning the same raw data to different group memeber and compare the results.\nI editted more than 30 files for the last few months, and am still learning and improving my skills. I will demonstrate my effort in quality control and issues we encountered during data cleaning in the following posts."
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "CV",
+    "section": "",
+    "text": "Education\nBachelor of Science\nPennsylvania State University,University Park; May 2024\nMajor: Psychology\nMinor:Human Development and Family Study (HDFS)\nOverall GPA: 3.81; Major GPA: 3.84\nCurriculum Highlights: Basic Methods in Psychological Study, Elementary Statistics, Cognitive Development, Cognitive Neuroscience, Physiological Psychology, Problems in Childhood/Adolescence\n\n\nResearch Experience\nBrain and Behavioral Dynamics Lab\nUndergraduate Research Assistance, State College, PA August 2023 to May 2024\n\nSecure sharing of personal data and technologies.\nCreate a guidebook for Databrary by using R language.\nSupervisor: Rick Gilmore, PhD; Andrea Seisler, MS.\n\nParent-Child Dynamic Lab\nUndergraduate Research Assistance, State College, PA May 2023 to May 2024\n\nUnderstand how parents regulate themselves while disciplining their children.\nCollect and ensure the quality of Electrodermal Activity Data.\nSupervisor: Erika Lunkenheimer, PhD.\n\n\n\nTeaching Experience\nUndergraduate Teaching Assistance\nPennsylvania State University, State College, PA August 2023 to May 2024\n\nPSYCH413 Cognitive Development: an advanced undergraduate course covering the following topics: Biological basis, Perception, Language, Executive functions, etc.\nCoordinate grading and develop quizzes, exams, and homework.\nSupervisor: Rodrigo Cardenas, PhD.\n\nLearning Assistance\nZhengzhou Cornerstone High School, Zhengzhou, China Nov 2019 to Jan 2020\n\nWork with junior high school students as a peer-advisor\nMaintain classroom discipline and help answer homework questions."
+  },
+  {
+    "objectID": "Academe.html",
+    "href": "Academe.html",
+    "title": "Academe",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "About.html",
+    "href": "About.html",
+    "title": "Liu’s Journey",
+    "section": "",
+    "text": "This blog is built by Yinghe Liu, first launched in Dec 28th, 2023. He’s currently a student major in psychology and passioned in how human react in stressful situations. He’s also a gamer and a big fan of the game of GO. He built this blog to record his life and share thoughts. It may not be updated frequently, but he will try his best to keep it alive."
+  },
+  {
+    "objectID": "posts/Announcement/Say_Hello.html",
+    "href": "posts/Announcement/Say_Hello.html",
+    "title": "Welcome To My Blog!",
+    "section": "",
+    "text": "Welcome! This is my first blog post. At the end of 2023, blog seems to be out of fashion, but I still want to build up a place where I can share my thoughts and life stories. A personal website helps me concentrate on consolidating the contents and organizing my thoughts.\nI tried many social media platforms such as Twitter or Weibo, yet sooner I realized the content provided by these social media distract me from creating considered outputs. They become more likely a place for me to consume information and interact with others. The feeds are rich, diverse, and sometimes overwhelming. Thus, I decided to build a more freestanding place for publishing. I said to myself:“Time to engage with the world, and share your thoughts with others.”\nI was concerned about to what extend should I share my personal life. I am not sure if I should share my personal life stories, or just focus on the professional side. Would personal details scarify privacy and security? Would it be too much to share? I am still not sure about the answer, but I will try to balance the two sides.\nThe blogs may seem naive or immature in terms of rhetoric devices or content depth. If you have any idea after reading my blogs, help me learn more! I’ll learn to enable comments in the following days and I am looking forward to hearing from you! You may also reach me via email, discord, or even steam. I am always open to new ideas and thoughts."
+  },
+  {
+    "objectID": "posts/Uncategorized/My perspectives on the game of GO.html",
+    "href": "posts/Uncategorized/My perspectives on the game of GO.html",
+    "title": "我眼中的围棋",
+    "section": "",
+    "text": "这篇博客我将以中文来书写。我接触围棋的契机是作为一个儿童的兴趣爱好。很多中国家长让孩子学起围棋更多是从一个定向投资而非简单的兴趣培养。我母亲便认为学围棋有利于儿童的智力发展，让孩子学习围棋似乎对智利的崇拜多余追求乐趣。至于围棋这种棋类游戏是否真的有助于认知发展，我认为是值得考究的，我也会在文中尝试从实证研究的角度讨论围棋在发展的作用。除此之外，我也希望分享我眼中的围棋的未来。\n\n什么是围棋？\n在详细讨论之前，我们不免的来界定讨论的目标：围棋。围棋是一种棋类游戏，它的典型游戏规则是：两名玩家轮流在棋盘上落子，落子后不可移动，当一方的棋子被对方的棋子围住时，该方的棋子被移除棋盘，当一方的棋子被移除棋盘的数量达到一定数量时，游戏结束，棋盘上剩余的棋子越多的一方获胜。围棋的棋盘通常是一个19*19的棋盘，棋子有黑白两色，棋子的落子位置是棋盘上的交叉点。围棋的棋盘如下图所示：\n\n\n\n围棋棋盘\n\n\n当然，围棋的规则还有很多变体，比如围棋的棋盘大小可以是9*9的。在一些特定情境下，游戏的细小规则也可能会有所变化。广为人知的例子是围棋的“终局”规则。在日本和韩国流行的规则中，游戏的终局是在双方都认为没有更多的变化时“点目”，而中国规则则是“数子” （实际上二者本质都是对于双方领地的量化，只是实施的方式不同）。这些细小的规则并没有触及围棋的游戏本质，因此在本文中，我将不会对这些规则进行讨论。\n\n\n围棋的竞技性\n在我眼中，围棋的本质和其他棋类游戏，如象棋，有着极为相似的一点，即在有限时间内的决策过程。这似乎是一个非常宽泛的定义，但是我认为这是围棋和其他棋类游戏的本质区别于其他游戏的地方。在围棋中，每一步的决策都是在有限的时间内进行的，而这个时间限制是固定的，不会因为玩家的水平而有所变化。这一点在竞技游戏之中更加显著，比如“英雄联盟”就对玩家的反应速度比“Minecraft生存”提出了更高的要求。这本质上源于游戏规则对竞技性的追求。\n但是，值得注意的是，有限时间内作出决策并不是对围棋竞技性或乐趣的唯一源泉。当围棋被去除时间限制时，它仍然是一种有趣的游戏。在这种情况下，围棋的竞技性强调的是是对于棋盘上的局势的判断和理解。一个局部的变化就像堆栈一样，它会影响到整个棋局的走向。这种影响是难以穷尽的，就像一句经典老话”千年无重局“。这使得最优模型的寻找变得困难，因为这需要大量的计算量来完成穷举法。因此人们在逐渐的寻找一种更加高效的方法来解决这个问题，在过去这种不断优化的模型叫做“棋理”，在现在有了更加有效率的另一条路：计算行智力/人工智能。然而，通过神经网络模拟模型的深度学习算法并没有彻底解决最优模型的问题。这也使得围棋的竞技性在一定程度上得到了保留。在有限的时间内，人类玩家之间仍然可以通过对于棋局的理解来获得优势。实际上，围棋时间的限制在过去几十年内一直在演变。多日制在在上个世纪的日本就曾经十分风靡，而现在仅剩余少量的大奖赛保留多日制。我曾在一门写作课中写过一个作业来“假装是一名持赞同观点的谏言者”，我将在下文中分享这篇作业的内容。\n\n\n在我看来，缩减竞技中的时间限制能有效保持围棋的竞技性。在这种情况下，围棋的竞技性不再是对于简单基于棋局的理解，而是对于棋局的理解和有效时间内决策的平衡。\n\n\n围棋强者的品质\n基于围棋的英文实证研究十分稀少，这或许有两个原因：文化差异和缺乏样品。围棋在东亚有着极高的普及度，但是在其他国家，围棋的普及度并不高，这使得研究多来源于东亚人口。然而，职业围棋选手的数量极为有限，现役不过千人左右。参与研究还要求实验参与者的同意和配合，这使得研究的样本数量更加有限。因此，围棋的研究往往是基于少量的样本，这使得研究的可靠性和普适性都受到了影响。除此之外，认知测试或者问卷调查的可靠性也是一个问题。在控制成本的情况下，研究者往往会选择一些简单的测试，比如“数子”或者“点目”，这些测试并不能完全反映围棋的竞技性。\n本世纪初曾有日本学者 (Masunagal & Horn, 2001）尝试使用围棋作为研究样本来测试专业相关的智力成分。在文中，他们描述道：\n\nThe capabilities expressed in some forms of expertise—the problem solving, reasoning, and feats of memory seen in expert performance in the games of chess and GO, for example—are similar to the abilities described as indicating the forms of human intelligence that decline with age in adulthood (i.e., Gf, SAR, Gs): the problems appear to be as novel and the levels of complexities appear to be as high (Johnson, 1997; Mechner, 1998).\n\n\nGf: fluid reasoning; SAR: hort-term apprehension and retrieval memory; Gs: cognitive speed."
+  }
+]

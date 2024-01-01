@@ -1,0 +1,66 @@
+---
+title: "CV"
+date-modified: "2023-12-29"
+---
+
+# Education
+
+**Bachelor of Science**
+
+Pennsylvania State University,University Park; May 2024
+
+Major: Psychology
+
+Minor:Human Development and Family Study (HDFS)
+
+Overall GPA: 3.81; Major GPA: 3.84
+
+**Curriculum Highlights:** Basic Methods in Psychological Study, Elementary Statistics, Cognitive Development, Cognitive Neuroscience, Physiological Psychology, Problems in Childhood/Adolescence
+
+# Research Experience
+
+**Brain and Behavioral Dynamics Lab**
+
+**Undergraduate Research Assistance**, State College, PA August 2023 to May 2024
+
+-   Secure sharing of personal data and technologies.
+
+-   Create a guidebook for Databrary by using R language.
+
+-   Supervisor: Rick Gilmore, PhD; Andrea Seisler, MS.
+
+
+**Parent-Child Dynamic Lab**
+
+**Undergraduate Research Assistance**, State College, PA May 2023 to May 2024
+
+
+-   Understand how parents regulate themselves while disciplining their children.
+
+-   Collect and ensure the quality of Electrodermal Activity Data.
+
+-   Supervisor: Erika Lunkenheimer, PhD.
+
+
+
+# Teaching Experience
+
+**Undergraduate Teaching Assistance**
+
+**Pennsylvania State University**, State College, PA August 2023 to May 2024
+
+
+-   *PSYCH413 Cognitive Development*: an advanced undergraduate course covering the following topics: Biological basis, Perception, Language, Executive functions, etc.
+
+-   Coordinate grading and develop quizzes, exams, and homework.
+
+-   Supervisor: Rodrigo Cardenas, PhD.
+
+**Learning Assistance**
+
+**Zhengzhou Cornerstone High School**, Zhengzhou, China Nov 2019 to Jan 2020
+
+
+-   Work with junior high school students as a peer-advisor
+
+-   Maintain classroom discipline and help answer homework questions.

@@ -1,0 +1,17 @@
+---
+title: "Welcome To My Blog!"
+author: "Yinghe Liu"
+date: "2023-12-29"
+date-modified: "2023-12-29"
+categories: [Announcement]
+image: Biography_Headshot.jpeg 
+description: "Say Hello to the world! This is my first blog post."
+---
+
+Welcome! This is my first blog post. At the end of 2023, blog seems to be out of fashion, but I still want to build up a place where I can share my thoughts and life stories. A personal website helps me concentrate on consolidating the contents and organizing my thoughts.
+
+I tried many social media platforms such as Twitter or Weibo, yet sooner I realized the content provided by these social media distract me from creating considered outputs. They become more likely a place for me to consume information and interact with others. The feeds are rich, diverse, and sometimes overwhelming. Thus, I decided to build a more freestanding place for publishing. I said to myself:"Time to engage with the world, and share your thoughts with others."
+
+I was concerned about to what extend should I share my personal life. I am not sure if I should share my personal life stories, or just focus on the professional side. Would personal details scarify privacy and security? Would it be too much to share? I am still not sure about the answer, but I will try to balance the two sides.
+
+The blogs may seem naive or immature in terms of rhetoric devices or content depth. If you have any idea after reading my blogs, help me learn more! I'll learn to enable comments in the following days and I am looking forward to hearing from you! You may also reach me via email, discord, or even steam. I am always open to new ideas and thoughts.

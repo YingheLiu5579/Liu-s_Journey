@@ -1,0 +1,27 @@
+---
+title: "Tech Problem Log"
+author: "Yinghe Liu"
+date: "2023-12-29"
+date-modified: "2023-12-29"
+categories: [Announcement]
+description: "As a beginner, I will record some tech problems I met and how I solved them."
+draft: true
+---
+1. Wechat share button [Unsolved]
+Wechat disabled the Javascript hyperlink sharing function. I need to figure out a way to share my blog to Wechat. It seems that I am forced to use the Wechat QR code to share my blog.
+
+2. Render the website [Solved]
+Something went wrong when I tried to render the website. It is stuck in one of my past version of the webcite, yet once I clicked the `Liu's Journey` page, the problem disappeared. I am not sure what happened. I will keep an eye on it.
+
+Dec 31 2023 Update: I figured out the problem in the quarto official guideline. The `Freeze` function is used during rendering. Add `Freeze: True` to force rendering. 
+
+![Render Issue](Render Issue.png)
+
+Link to the guideline: <a href="https://quarto.org/docs/output-formats/html-basics.html">https://quarto.org/docs/output-formats/html-basics.html</a>
+
+3. Comments on Website [Unsolved]
+I need to figure out a way to add comments on my website. 
+
+4. RSS Feed [Unsolved]
+
+5. Google Analytics [Unsolved]
