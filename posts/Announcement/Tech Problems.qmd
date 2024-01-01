@@ -25,3 +25,5 @@ I need to figure out a way to add comments on my website.
 4. RSS Feed [Unsolved]
 
 5. Google Analytics [Unsolved]
+
+6. Git push [Unsolved]
