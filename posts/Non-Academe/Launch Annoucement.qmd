@@ -1,5 +1,5 @@
 ---
-title: "Tech Problem Log"
+title: "Website is alive now!!!"
 author: "Yinghe Liu"
 date: "2024-1-10"
 categories: [Non-Academe, Announcement]
