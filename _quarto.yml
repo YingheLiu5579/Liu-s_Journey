@@ -46,3 +46,6 @@ comments:
   hypothesis: 
     theme: clean
     showHighlights: true
+
+execute:
+  freeze: auto
