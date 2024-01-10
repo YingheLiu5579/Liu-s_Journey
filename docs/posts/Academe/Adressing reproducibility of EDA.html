@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Yinghe Liu">
+<meta name="dcterms.date" content="2024-01-08">
+<meta name="description" content="Discuss to what impacts consistent results of EDA">
+
+<title>Addressing Reproducibility of Electrodermal Activity Data (EDA).</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean",
+  "showHighlights": true
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../About.html" rel="" target="">
+ <span class="menu-text">Liu’s Journey</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-me" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">About me</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-me">    
+        <li>
+    <a class="dropdown-item" href="../../Lifestory.html" rel="" target="">
+ <span class="dropdown-text">Lifestory</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../Academe.html" rel="" target="">
+ <span class="dropdown-text">Academe</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../CV.html" rel="" target="">
+ <span class="dropdown-text">CV</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://discordapp.com/users/1143984722620448839" rel="" target=""><i class="bi bi-discord" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/YingheLiu5579" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:yingheliu@outlook.com" rel="" target=""><i class="bi bi-envelope" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Addressing Reproducibility of Electrodermal Activity Data (EDA).</h1>
+                  <div>
+        <div class="description">
+          Discuss to what impacts consistent results of EDA
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Academe</div>
+                <div class="quarto-category">Electrodermal Activity</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Yinghe Liu </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 8, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The slides are from a final semester project, so it is intentianally brief for time sake. For more detailed information about how I learned about EDA and some effort I’ve made to improve reproducibility, refer to some other posts.</p>
+</div>
+</div>
+<p><iframe src="EDA_Reproducibility_brief_notes.pdf" width="100%" height="500px" style="border:none;"></iframe></p>
+<p><strong>Slide 1 &amp; 2: Topic Intro/What is EDA</strong></p>
+<p>Electrodermal activity (EDA) refers to small changes in the electrical activity of the skin, usually occurring 1–3 seconds following the onset of a stimulus <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Since the late 19th century, it has been recognized as a useful measurement to estimate human emotional responses, especially under stressful situations. Historically, it has had many past names, such as sympathetic skin response (SSR) or skin conductance level (SCL). <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> They may not all follow the same measurement paradigm, but all conceptualize targeting sweat secretion.</p>
+<p><strong>Slide 3: Mechanisms of EDA</strong></p>
+<p>Overall, we can explain EDA using an information processing system model that contains Input, Information Process, and Output. When an outside stressor generates some stimulation (Input), the signals then pass down to the CNS for further processing. The outcome is executed by the peripheral system, or more specifically, the autonomic system, which controls sweat glands to produce more secretion, resulting in changes in skin surface conductivity. We have learned from past courses that such a mechanism may represent evolutionary adaptations to mobilize body resources to respond to challenging events.</p>
+<p>The picture on the right illustrates how we measure EDA by attaching electrodes to the palms. Palms, rather than areas under the arms, are more sensitive to stressors, but may not be the best measurement loci. Fingertips, instead, are now found to be the more recommended loci.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> We have decided to remain consistent with our manual that still uses palm loci. In addition to palms, electrodes may also be attached to the chest cavity to measure respiration rate and heart rate. As discussed later, these measurements are usually coupled together to ensure the convergence of autonomic system responses. <a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p><strong>Slide 4: Who uses EDA?</strong></p>
+<p>EDA is widely used in the following psychology-related areas:</p>
+<p>• Emotion Research: Investigating how individuals react to emotional stimuli, such as images, videos, or emotional experiences. <a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<p>• Stress and Anxiety Studies: How individuals react in stressful situations. <a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<p>• Affective Computing and Interactions (My case)</p>
+<p>• Pain Perception</p>
+<p>• Biofeedback in PNS</p>
+<p>• Marketing and Consumer Behavior: How people react to marketing stimuli, even used in tourism. <a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>• Clinical Application: Anxiety-related Disorders/Traumatic experiences: Used in clinical psychology and psychiatry to assess physiological responses in individuals with conditions such as anxiety disorders, post-traumatic stress disorder (PTSD), and phobias. <a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<p><strong>Slide 5 &amp; 6: Paradigm Examples</strong></p>
+<p>In my case, we use the Trier Social Stress Test (TSST) to create tension by asking them to pretend to be an interview candidate.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> The Iowa Gambling Task (IGT) investigates how people make decisions and conduct risky behaviors. <a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> Lie Detector Tests (Polygraph Examinations) are the first time I have heard of this technique. In this test, people react to questions that evoke considerable emotional responses.</p>
+<p>From one of our past coursework, we learned about some platforms that share protocols. The figure shown in the slide is a screenshot of TSST from Protocol.io.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> We can see some interesting descriptions: “Heart rate, EDA, and respiration rate are assessed continuously,…, [and] participants are asked to abstain from …, smoking, using substances, …, engaging in physical exercise…” Some factors are very intuitive, such as physical exercise, and were realized by early researchers, but others were gradually learned in the following decades. <a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
+<p>Here, the reproducibility crisis emerges. For instance, an early dataset may not exclude smoking as artifacts, whereas later datasets benefit from recent studies and remove smoking-related skin conductance responses. This usually shows up as different criteria in manuals. Another good example would be loci choice, as discussed previously.</p>
+<p><strong>Slide 7 &amp; 8: Basic Properties</strong></p>
+<p>As shown in the picture, it takes about 1 to 3 seconds for skin conductance to occur. The latency is the state where our body receives the stimuli, processes the information, and generates reactions. The amplitude is how dramatically the sweat glands secrete accordingly.</p>
+<p>The picture in slide 8 shows two major components of EDA data: tonic and phasic. The tonic component refers to the non-specific, steadily changing rhythms of the autonomic nervous system, and the phasic component refers to event-related responses that most studies target. They are vital in controlling variables.</p>
+<p><strong>Slide 9 &amp; 10: Influencing Factors</strong></p>
+<p>EDA is complex because it involves many influencing factors. The major ones are technique, environment, and individual differences. Technique factors range from electrode materials to measured loci; environmental factors include temperature and humidity; individual differences encompass drugs, exercise, respiration, age, and skin water content. <a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>Among all factors, we can control technique, environment, skin water content, drugs, and exercise status, but some individual factors are not subject to laboratory settings. The most commonly seen uncontrolled factors are respiration, connection stability, miscellaneous actions such as sudden movement, and pressing electrodes. On top of this, we need to delete falsely marked skin conductivity responses resulting from software settings.</p>
+<p><strong>Slide 11 &amp; 12: Artifacts Demonstration</strong></p>
+<p>Illustrations of irregular respiration and pressing on the sensor as artifacts.</p>
+<p>Irregular respiration may lead to sudden changes in EDA value, with few standardized methods that can rule out these artifacts. <a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></p>
+<p><strong>Slide 13 &amp; 14: Cognitive Bias</strong></p>
+<p>In practice, I realized that EDA editing is under the threat of cognitive bias. This is primarily because of the ambiguity in describing artifacts, such as respiration. We consider “2 to 3 times larger than the average” as irregular, but finding the average may be highly subject to human error. The pictures I show in the slides are two examples where we have trouble identifying the average respiration rate of a task. A messy file part in the earlier half may change how editors value the rest half.</p>
+<p><strong>Slide 15: Efforts towards Open Science</strong></p>
+<p>We have implemented some quality assurance processes to protect our results from cognitive bias. Firstly, we decided to double-edit files that might be controversial. By introducing a second editor, we can provide more diversified interpretative perspectives and correct the misuse of editorial manuals by a single editor. Then we labeled all major artifacts with a code, as shown on the right slide. Any modification made to the raw data would be recorded with the “Type-Time” abbreviation so that we can track all objective decisions. Additionally, I also use programming languages to make the generation of double-edit files and the transfer of data more replicable. If the EDA data in the study I engage in were eventually openly shared, I would have at least the confidence to speak of “an attempt towards open science.”</p>
+<p><strong>Slide 16: Many-Analyst Approach</strong></p>
+<p>In fact, the ambulatory EDA setting has raised some concerns in the last decade.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a><a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>, but no study has quantitatively assessed how dramatically human-led measurement errors can be affected by standardized manuals in an ambiguous setting. Thus, I designed a study that uses a many-analyst approach to estimate how editors from different backgrounds act on the same raw EDA data.</p>
+<p>Editors will be provided with raw datasets from a standardized test such as TSST for analysis. Other coupled variables used during assessment are also included, including heart rate variance, impedance, and respiration rate. Any manipulation of the dataset would be recorded by a unified coding system, such as “Type-Time” abbreviations. Editors would be required to share their applied manuals, which would be provided by a third-party or originated by the editors. Ultimately, the overlap of the results could be estimated by comparing different data processing results. In our in-group trial where editors used the same manual and were trained by the instructor concurrently, we achieved an 88 percent consistency rate.</p>
+<p>For more information about how we achieved the preliminary results, please refer to the other blog to be posted soon.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Scarpa, A., &amp; Raine, A. (1997). Psychophysiology of anger and violent behavior. <em>Psychiatric Clinics of North America</em>, <em>20</em>(2), 375-394.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Amiez, C., &amp; Procyk, E. (2019). Midcingulate somatomotor and autonomic functions. <em>Handbook of clinical neurology</em>, <em>166</em>, 53-71.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Fredrikson, M., Furmark, T., Olsson, M. T., Fischer, H., Andersson, J., &amp; Långström, B. (1998). Functional neuroanatomical correlates of electrodermal activity: a positron emission tomographic study. <em>Psychophysiology</em>, <em>35</em>(2), 179-185.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Fowles, D. C. (1980). The three arousal model: Implications of Gray’s two‐factor learning theory for heart rate, electrodermal activity, and psychopathy. <em>Psychophysiology</em>, <em>17</em>(2), 87-104.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Sequeira, H., Hot, P., Silvert, L., &amp; Delplanque, S. (2009). Electrical autonomic correlates of emotion. <em>International journal of psychophysiology</em>, <em>71</em>(1), 50-56.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Noble, R. E. (2002). Diagnosis of stress. <em>Metabolism-Clinical and Experimental</em>, <em>51</em>(6), 37-39.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Caruelle, D., Gustafsson, A., Shams, P., &amp; Lervik-Olsen, L. (2019). The use of electrodermal activity (EDA) measurement to understand consumer emotions–A literature review and a call for action. <em>Journal of Business Research</em>, <em>104</em>, 146-160.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Colvonen, P. J., Glassman, L. H., Crocker, L. D., Buttner, M. M., Orff, H., Schiehser, D. M., … &amp; Afari, N. (2017). Pretreatment biomarkers predicting PTSD psychotherapy outcomes: a systematic review. <em>Neuroscience &amp; Biobehavioral Reviews</em>, <em>75</em>, 140-156.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Allen, A. P., Kennedy, P. J., Dockray, S., Cryan, J. F., Dinan, T. G., &amp; Clarke, G. (2017). The trier social stress test: principles and practice. <em>Neurobiology of stress</em>, <em>6</em>, 113-126.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Martínez-Selva, J. M., Sánchez-Navarro, J. P., Bechara, A., &amp; Román, F. (2006). Brain mechanisms involved in decision-making. <em>Revista de neurologia</em>, <em>42</em>(7), 411.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Heekerens, J. B. (2023). Inducing Psychosocial Stress in the Laboratory: A Study Protocol for the Trier Social Stress Test (TSST). <em>Www.protocols.io</em>. https://www.protocols.io/view/inducing-psychosocial-stress-in-the-laboratory-a-s-e6nvwj85zlmk/v3‌<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>Posada-Quintero, H. F., &amp; Chon, K. H. (2020). Innovations in electrodermal activity data collection and signal processing: A systematic review. <em>Sensors</em>, <em>20</em>(2), 479.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Posada-Quintero, H. F., &amp; Chon, K. H. (2020). Innovations in electrodermal activity data collection and signal processing: A systematic review. <em>Sensors</em>, <em>20</em>(2), 479.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Topoglu, Y., Watson, J., Suri, R., &amp; Ayaz, H. (2020). Electrodermal activity in ambulatory settings: a narrative review of literature. In <em>Advances in Neuroergonomics and Cognitive Engineering: Proceedings of the AHFE 2019 International Conference on Neuroergonomics and Cognitive Engineering, and the AHFE International Conference on Industrial Cognitive Ergonomics and Engineering Psychology, July 24-28, 2019, Washington DC, USA 10</em> (pp.&nbsp;91-102). Springer International Publishing.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>Topoglu, Y., Watson, J., Suri, R., &amp; Ayaz, H. (2020). Electrodermal activity in ambulatory settings: a narrative review of literature. In <em>Advances in Neuroergonomics and Cognitive Engineering: Proceedings of the AHFE 2019 International Conference on Neuroergonomics and Cognitive Engineering, and the AHFE International Conference on Industrial Cognitive Ergonomics and Engineering Psychology, July 24-28, 2019, Washington DC, USA 10</em> (pp.&nbsp;91-102). Springer International Publishing.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>Smets, E., De Raedt, W., &amp; Van Hoof, C. (2018). Into the wild: the challenges of physiological stress detection in laboratory and ambulatory settings. <em>IEEE journal of biomedical and health informatics</em>, <em>23</em>(2), 463-473.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

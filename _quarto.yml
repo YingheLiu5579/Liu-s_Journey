@@ -1,6 +1,7 @@
 project:
   type: website
-
+  output-dir: docs
+  
 website:
   description: "Yinghe Liu's personal website and blog."
   navbar:
