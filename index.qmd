@@ -9,8 +9,7 @@ listing:
   sort-ui: false
   filter-ui: false
   feed: true
+site-url: https://yingheliu5579.github.io/Liu-s_Journey/
 page-layout: full
 title-block-banner: True
-
 ---
-
