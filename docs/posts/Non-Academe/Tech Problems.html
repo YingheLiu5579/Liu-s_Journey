@@ -221,8 +221,13 @@ Warning
 <li><p>Comments on Website [Unsolved] I need to figure out a way to add comments on my website.</p></li>
 <li><p>RSS Feed [Unsolved]</p></li>
 <li><p>Google Analytics [Unsolved]</p></li>
-<li><p>Git push [Unsolved]</p></li>
-<li><p>Reference [Unsolved] I am trying to add references to my articles. .bib file seems too complicated, but footnotes are not working appropriately. I will try to figure out a way to add references to my articles.</p></li>
+<li><p>Git push [Solved] I met a problem when I tried to push my website to Github. I got the following error message:</p></li>
+</ol>
+<pre><code> Logging at level: debug GitHub Pages: github-pages v228 GitHub Pages: jekyll v3.9.3 Theme: jekyll-theme-primer Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0 Requiring: jekyll-github-metadata Requiring: jekyll-seo-tag Requiring: jekyll-coffeescript Requiring: jekyll-commonmark-ghpages Requiring: jekyll-gist Requiring: jekyll-github-metadata Requiring: jekyll-paginate Requiring: jekyll-relative-links Requiring: jekyll-optional-front-matter Requiring: jekyll-readme-index Requiring: jekyll-default-layout Requiring: jekyll-titles-from-headings GitHub Metadata: Initializing... Source: /github/workspace/./docs Destination: /github/workspace/./docs/_site Incremental build: disabled. Enable with --incremental Generating... Generating: JekyllOptionalFrontMatter::Generator finished in 8.726e-06 seconds. Generating: JekyllReadmeIndex::Generator finished in 4.368e-06 seconds. Generating: Jekyll::Paginate::Pagination finished in 2.514e-06 seconds. Generating: JekyllRelativeLinks::Generator finished in 2.3323e-05 seconds. Generating: JekyllDefaultLayout::Generator finished in 9.617e-06 seconds. Generating: JekyllTitlesFromHeadings::Generator finished in 5.53e-06 seconds. Rendering: assets/css/style.scss Pre-Render Hooks: assets/css/style.scss Rendering Markup: assets/css/style.scss github-pages 228 | Error: No such file or directory @ dir_chdir - /github/workspace/docs</code></pre>
+<p>It is due to github try to render the website bu jekyll in default. Problem solved by following guidance provided by quato official doc.</p>
+<p>Link to the guideline: <a href="https://quarto.org/docs/output-formats/html-basics.html">https://quarto.org/docs/output-formats/html-basics.html</a></p>
+<ol start="7" type="1">
+<li>Reference [Unsolved] I am trying to add references to my articles. .bib file seems too complicated, but footnotes are not working appropriately. I will try to figure out a way to add references to my articles.</li>
 </ol>
 
 
