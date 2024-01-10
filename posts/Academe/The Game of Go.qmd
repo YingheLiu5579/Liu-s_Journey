@@ -1,0 +1,74 @@
+---
+title: "The Game of Go"
+author: "Yinghe Liu"
+date: "2024-1-1"
+date-modified: "2024-1-1"
+categories: [Academe, The Game of Go] 
+image: Alpha GO.jpg
+description: "Thoughts on the game of Go from a ten-year player."
+lang: en
+---
+
+::: {.callout-note}
+The original text of is blog is written in Chinese so many terms may not be appropiately described without cultural context. The translation is done by ChatGPT. 
+:::
+
+My exposure to Go began as a childhood interest. Many Chinese parents encourage their children to learn Go more as a targeted investment rather than simply nurturing an interest. My mother believed that learning Go was beneficial for a child's intellectual development. Thus, the pursuit of learning Go seemed more about idolizing intelligence rather than seeking enjoyment. I will attempt to discuss Go's key cognitive abilities from an empirical research perspective in this article.
+
+# What is Go?
+
+Before delving into a detailed discussion, it's necessary to define our subject: Go. Go is a board game where two players alternately place stones on a board. Once placed, the stones cannot be moved. When a player's stones are completely surrounded by the opponent's, they are removed from the board. The game ends when a certain number of stones are removed, and the player with more stones remaining on the board wins. A standard Go board is a 19x19 grid, and the stones are black and white, placed at the intersections. The Go board looks like the following image:
+
+![Go Board](GO%20board.jpg)
+
+Of course, there are many variations to Go's rules. For example, the board size can be 9x9. In certain contexts, minor rules of the game might also vary. A well-known example is the endgame rule in Go. In Japan and Korea, the endgame involves "counting points," while in Chinese rules, it's about "counting stones" (essentially, both are methods of quantifying territory, but implemented differently). These minor rules don't touch upon the essence of Go, so I will not discuss them here.
+
+# The Competitive Nature of Go
+
+To me, the essence of Go, like other board games such as chess, lies in decision-making under ambiguous conditions. This decision-making is purely intellectual, and the outcomes are uncertain. In such scenarios, the competitiveness of Go emphasizes understanding and judging the situation on the board. A small change in a local situation can affect the entire course of the game. This impact is inexhaustible, as the old saying goes, "no two games are the same." This makes finding the optimal model difficult, as it requires a massive amount of computation for exhaustive methods, keeping Go interesting even without time constraints. Therefore, people have been looking for more efficient ways to solve this problem. In the past, this optimization was referred to as "chess theory," but now there's a more efficient alternative: computational intelligence/artificial intelligence.
+
+More efficient methods of fitting optimal models have changed how Go enthusiasts acquire professional knowledge. In the past, enthusiasts learned by studying the game records of top players or through verbal instruction from more experienced players. Now, people can simply open an information terminal to simulate winning probability curves and learn different strategies from the fluctuations in winning probabilities. Powerful and objective algorithms undoubtedly weaken the discourse power of high-level players in seeking the best Go solutions and also provide low-level enthusiasts with a cheaper, more reliable way to improve their competitive skills. Yet, deep learning algorithms based on neural network simulation models haven't completely solved the problem of the optimal model. They are essentially a black box, which to some extent preserves the competitiveness of Go. Within a limited time frame, human players can still gain an advantage through their understanding of the game.
+
+In fact, time constraints in Go have evolved over the past decades. Multi-day formats were very popular in Japan in the last century, and now only a few major tournaments retain this format. I once wrote an assignment for a writing class, pretending to be an advisor who supports this view. In my view, reducing time constraints in competitive play effectively maintains the competitiveness of Go. In this scenario, the competitiveness of Go is no longer just about understanding the game, but about balancing understanding of the game with effective decision-making within a limited time. 
+
+<iframe src="Reform of Time rule.pdf" width="100%" height="500px" style="border:none;">
+
+</iframe>
+
+The changes brought by new technologies have led to a great sense of loss. The simplicity and straightforwardness of winning probability changes brought by deep learning algorithms made me miss the joy of pondering over game records in the past, leaving me somewhat nostalgic.
+
+# Characteristics of Competetive Go Players
+
+The decision-making process under pressure involves several classic psychological concepts, including attention control, working memory, information processing speed, cognitive flexibility, inhibitory control, risk assessment, and logical deduction. Readers familiar with psychology may recognize that these traits form a common concept: "executive function."
+
+Unfortunately, empirical studies based on Go are scarce in English literature, possibly due to cultural differences and a lack of samples. Go is highly popular in East Asia, but not as much in other countries, leading to most research originating from East Asian populations. However, the number of professional Go players is very limited, with only about a thousand active players. Participant consent and cooperation are required for research, further limiting the number of study samples. Therefore, Go research often relies on a small sample size, affecting the reliability and universality of the findings. Additionally, the reliability of cognitive tests or questionnaires is an issue. To control costs, researchers often choose simple tests, such as "counting stones" or "counting points," which don't fully reflect the competitiveness of Go.
+
+In English literature, articles based on deep learning far outnumber discussions on cognitive phenomena related to Go. I tried searching Google Scholar with Chinese keywords (围棋, 智力, 认知) and only retained peer-reviewed results. The results were also mostly concentrated in the field of deep learning algorithms, possibly related to the literature search engine I used. Similarly, I might have missed literature based on Korean or Japanese. This is an important language barrier in information communication, but currently, I have no solution.
+
+In the following, I will select an influential English-language article for discussion. At the beginning of this century, Japanese researchers (Masunaga & Horn, 2001)[^1] attempted to use Go as a research sample to test intelligence components related to professionalism. In the article, they described:
+
+> The capabilities expressed in some forms of expertise—the problem solving, reasoning, and feats of memory seen in expert performance in the games of chess and GO, for example—are similar to the abilities described as indicating the forms of human intelligence that decline with age in adulthood (i.e., Gf, SAR, Gs): the problems appear to be as novel and the levels of complexities appear to be as high (Johnson, 1997; Mechner, 1998).
+
+> Gf: fluid reasoning; SAR: short-term apprehension and retrieval memory; Gs: cognitive speed.
+
+However, after a detailed examination, I found that one of the cited articles is difficult to trace (Mechner, 1998)[^2], and the other is merely a news report (Johnson, 1997)[^3], suggesting that the qualities mentioned in the article as advantageous in Go might be the authors' inductive summaries based on past experience. The tests used in the study were divided into two categories: adaptive tests involving Go and classic test tasks not involving Go, as seen in Table 2 of the article. 
+
+The results showed that all cognitive tests not involving Go did not reflect real competitive levels, while tests containing professional content could better predict real competitive levels. When I learned Go, we had some consensus on successful professional players, such as "strong calculation ability," which was also the main target of the **Go-related adaptive test sub-items** in Masunaga & Horn (2001). The results supported the **significant role of executive function in competitive success in Go**. At the same time, it's especially worth noting that there was no significant difference in **executive function in non-Go test items** among Go enthusiasts of different levels. This indicates that the accumulation of professional content in Go is also an extremely important trait for success, especially for young enthusiasts. **The accumulation of professional knowledge allows players to maintain a competitive state even after a decline in executive function.** Similar conclusions have been reflected in a very similar field, chess. This game, like Go, has high professionalism, complexity, and pure intellectual competition, but has a larger sample size compared to Go (Boury-Brisset et al., 2016)[^4].
+
+Here we reach preliminary conclusions: 
+
+- Empirical studies based on Go are mostly focused on algorithms, rather than cognition and behavior. 
+
+- People good at Go do not show significant advantages in general executive function tests. 
+
+- Go contains a large amount of professional content, and the accumulation of this professional content is an important trait for becoming a strong Go player.
+
+It's particularly important to emphasize that the key conditions required for empirical research are imperfect in the field of Go, so some traits that are difficult to quantify may be overlooked. Other factors I can think of include: age when starting to play Go, training duration, economic status. Popular analyses of the personality traits of top players also lack representativeness. I will gradually refine the related research I read and try to compile them into a separate blog.
+
+
+
+[^1]: Masunaga, H., & Horn, J. (2001). Expertise and age-related changes in components of intelligence. *Psychology and aging*, *16*(2), 293.
+[^2]: Mechner, D. A. (1998). All systems go. *Sciences*, *38*(1), 32.
+[^3]: Johnson, G. (1997). To test a powerful computer, play an ancient game.
+[^4]: Burgoyne, A. P., Sala, G., Gobet, F., Macnamara, B. N., Campitelli, G., & Hambrick, D. Z. (2016). The relationship between cognitive ability and chess skill: A comprehensive meta-analysis. *Intelligence*, *59*, 72-83.
+

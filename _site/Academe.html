@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./Blog_index.html" rel="" target="">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -148,6 +148,12 @@ ul.task-list li input[type="checkbox"] {
 
       
     
+      <div>
+      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">January 3, 2024</p>
+      </div>
+    </div>
       
     </div>
     
@@ -162,6 +168,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<p>I spent the first eighteen years of my life in a small city in central China, where educational resources were limited, and everyone was striving for the opportunity to move to bigger cities. Standardized exams acted as ruthless filters, stifling individual exploration and creativity. During my high school years, I continually pondered what kind of person I was and explored various philosophical viewpoints. The exploration of thinking itself fascinated me, and eventually, I chose psychology as my undergraduate major.</p>
+<p>In the Chinese context, psychology is a vast concept, and I didn’t understand what studying psychological phenomena systematically entailed. During my first two years in college, I explored different courses in psychology. These courses were all intriguing, but most importantly, they helped me realize that psychology is an empirical discipline. The psychological perspective that intrigued me the most was viewing psychological phenomena from cognitive and individual development perspectives. No cognitive phenomenon arises out of thin air; it is based on biological structures. Moreover, over time, our cognition is continually shaped.</p>
+<p>In the vast realm of psychology, the “chess study” caught my attention. This resonated with my passion for board games, and you can find more specific details in the articles I share on my blog. “Executive function” is at the core of the research, but most undergraduate education provides general knowledge and is insufficient to answer all questions comprehensively. Therefore, in my junior year, I decided to further my education and seek more knowledge about “executive function.”</p>
+<p>I was fortunate to have the opportunity to explore the academic world during the summer break of my junior year. I first joined the <a href="https://csc.la.psu.edu/research/funded-research-projects/parent-regulation-engagement-stress-and-health-presh/">PRESH project</a> led by Professor Lunkenheimer at Penn State. <a href="https://pcd.la.psu.edu/meet-the-team/">The research group</a> focused on how parents and children interact and whether this parent-child relationship is influenced by the parents’ own experiences. A classic scenario was teaching children to manage their behavior, and the research group set up a simulated daily interaction laboratory setting for this purpose. My role in this project was to collect Electrodermal Activity (EDA) data, and I have written several blog posts analyzing the challenges we faced regarding EDA data.</p>
+<p>I also joined <a href="https://gilmore-lab.github.io">another research group</a> at Penn State, led by Professor Gilmore. His research focused on two major areas: the early developmental curve of human vision and the issue of replicability. One significant reason I joined this group was my realization of the importance of data collection in psychological research and the challenges encountered in practice, such as EDA. My task was to create a handbook for a data-sharing platform to make it easier for people to share data. This information platform, dedicated to developmental psychology, is called <a href="https://nyu.databrary.org">Databrary</a>.</p>
+<p>At the same time, I attempted to design research from the perspective of a data analyst to provide more evidence about the challenges of EDA replicability, but progress has been slow. My current goal is to finalize the proposal by the end of January and seek further guidance.</p>
 
 
 
@@ -193,58 +205,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -397,6 +357,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
