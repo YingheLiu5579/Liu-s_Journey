@@ -13,7 +13,9 @@ This is likely a place for me to spill the beans on the struggles within the web
 
 1.  Wechat share button \[Unsolved\]
 
-Wechat disabled the Javascript hyperlink sharing function. I need to figure out a way to share my blog to Wechat. It seems that I am forced to use the Wechat QR code to share my blog. ~~"张小龙，\_\_\_\_"~~
+Wechat disabled the Javascript hyperlink sharing function. I need to figure out a way to share my blog to Wechat. It seems that I am forced to use the Wechat QR code to share my blog. 
+
+> ~~"张小龙，\_\_\_\_"~~
 
 2.  Render the website \[Solved\] 
 
@@ -39,9 +41,9 @@ Jan 12 2024 Update: I realized I enabled the comment function on my website by d
 
 I met a problem when I tried to push my website to Github. I got the following error message:
 
-```         
+>        
  Logging at level: debug GitHub Pages: github-pages v228 GitHub Pages: jekyll v3.9.3 Theme: jekyll-theme-primer Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0 Requiring: jekyll-github-metadata Requiring: jekyll-seo-tag Requiring: jekyll-coffeescript Requiring: jekyll-commonmark-ghpages Requiring: jekyll-gist Requiring: jekyll-github-metadata Requiring: jekyll-paginate Requiring: jekyll-relative-links Requiring: jekyll-optional-front-matter Requiring: jekyll-readme-index Requiring: jekyll-default-layout Requiring: jekyll-titles-from-headings GitHub Metadata: Initializing... Source: /github/workspace/./docs Destination: /github/workspace/./docs/_site Incremental build: disabled. Enable with --incremental Generating... Generating: JekyllOptionalFrontMatter::Generator finished in 8.726e-06 seconds. Generating: JekyllReadmeIndex::Generator finished in 4.368e-06 seconds. Generating: Jekyll::Paginate::Pagination finished in 2.514e-06 seconds. Generating: JekyllRelativeLinks::Generator finished in 2.3323e-05 seconds. Generating: JekyllDefaultLayout::Generator finished in 9.617e-06 seconds. Generating: JekyllTitlesFromHeadings::Generator finished in 5.53e-06 seconds. Rendering: assets/css/style.scss Pre-Render Hooks: assets/css/style.scss Rendering Markup: assets/css/style.scss github-pages 228 | Error: No such file or directory @ dir_chdir - /github/workspace/docs
-```
+
 
 It is due to github try to render the website bu jekyll in default. Problem solved by following guidance provided by quato official doc.
 
