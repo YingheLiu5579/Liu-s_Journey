@@ -5,16 +5,19 @@ date: "2023-12-29"
 date-modified: "2023-12-29"
 categories: [Non-Academe, Announcement]
 description: "As a beginner, I will record some tech problems I met and how I solved them."
-
 ---
 
 ::: callout-warning
 This is likely a place for me to spill the beans on the struggles within the web development🤬.
 :::
 
-1.  Wechat share button \[Unsolved\] Wechat disabled the Javascript hyperlink sharing function. I need to figure out a way to share my blog to Wechat. It seems that I am forced to use the Wechat QR code to share my blog. ~~"张小龙，\_\_\_\_"~~
+1.  Wechat share button \[Unsolved\]
 
-2.  Render the website \[Solved\] Something went wrong when I tried to render the website. It is stuck in one of my past version of the webcite, yet once I clicked the `Liu's Journey` page, the problem disappeared. I am not sure what happened. I will keep an eye on it.
+Wechat disabled the Javascript hyperlink sharing function. I need to figure out a way to share my blog to Wechat. It seems that I am forced to use the Wechat QR code to share my blog. ~~"张小龙，\_\_\_\_"~~
+
+2.  Render the website \[Solved\] 
+
+Something went wrong when I tried to render the website. It is stuck in one of my past version of the webcite, yet once I clicked the `Liu's Journey` page, the problem disappeared. I am not sure what happened. I will keep an eye on it.
 
 Dec 31 2023 Update: I figured out the problem in the quarto official guideline. The `Freeze` function is used during rendering. Add `Freeze: True` to force rendering.
 
@@ -22,21 +25,28 @@ Dec 31 2023 Update: I figured out the problem in the quarto official guideline. 
 
 Link to the guideline: <a href="https://quarto.org/docs/output-formats/html-basics.html">https://quarto.org/docs/output-formats/html-basics.html</a>
 
-3.  Comments on Website \[Unsolved\] I need to figure out a way to add comments on my website.
+3.  Comments on Website \[Unsolved\] 
+
+I need to figure out a way to add comments on my website.
+
+Jan 12 2024 Update: I realized I enabled the comment function on my website by default. It is achieved by hypothesis.io. Meanwhile, a new problem occurred. As the comment made, the text on the webpage will be highlighted. I need to figure out a way to disable the highlight function to keep reading experience intact. I am also not certain whether the comments will be kept if I update the website. I will keep an eye on it.
 
 4.  RSS Feed \[Unsolved\]
 
 5.  Google Analytics \[Unsolved\]
 
-6.  Git push \[Solved\]
+6.  Git push \[Solved\] 
+
 I met a problem when I tried to push my website to Github. I got the following error message:
 
-```
+```         
  Logging at level: debug GitHub Pages: github-pages v228 GitHub Pages: jekyll v3.9.3 Theme: jekyll-theme-primer Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0 Requiring: jekyll-github-metadata Requiring: jekyll-seo-tag Requiring: jekyll-coffeescript Requiring: jekyll-commonmark-ghpages Requiring: jekyll-gist Requiring: jekyll-github-metadata Requiring: jekyll-paginate Requiring: jekyll-relative-links Requiring: jekyll-optional-front-matter Requiring: jekyll-readme-index Requiring: jekyll-default-layout Requiring: jekyll-titles-from-headings GitHub Metadata: Initializing... Source: /github/workspace/./docs Destination: /github/workspace/./docs/_site Incremental build: disabled. Enable with --incremental Generating... Generating: JekyllOptionalFrontMatter::Generator finished in 8.726e-06 seconds. Generating: JekyllReadmeIndex::Generator finished in 4.368e-06 seconds. Generating: Jekyll::Paginate::Pagination finished in 2.514e-06 seconds. Generating: JekyllRelativeLinks::Generator finished in 2.3323e-05 seconds. Generating: JekyllDefaultLayout::Generator finished in 9.617e-06 seconds. Generating: JekyllTitlesFromHeadings::Generator finished in 5.53e-06 seconds. Rendering: assets/css/style.scss Pre-Render Hooks: assets/css/style.scss Rendering Markup: assets/css/style.scss github-pages 228 | Error: No such file or directory @ dir_chdir - /github/workspace/docs
 ```
+
 It is due to github try to render the website bu jekyll in default. Problem solved by following guidance provided by quato official doc.
 
 Link to the guideline: <a href="https://quarto.org/docs/output-formats/html-basics.html">https://quarto.org/docs/output-formats/html-basics.html</a>
 
+7.  Reference \[Unsolved\] 
 
-7.  Reference \[Unsolved\] I am trying to add references to my articles. .bib file seems too complicated, but footnotes are not working appropriately. I will try to figure out a way to add references to my articles.
+I am trying to add references to my articles. .bib file seems too complicated, but footnotes are not working appropriately. I will try to figure out a way to add references to my articles.
