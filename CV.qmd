@@ -1,6 +1,6 @@
 ---
 title: "CV"
-date-modified: "2023-12-29"
+date-modified: "2024-1-12"
 ---
 
 # Education
@@ -64,3 +64,10 @@ Overall GPA: 3.81; Major GPA: 3.85
 -   Work with junior high school students as a peer-advisor
 
 -   Maintain classroom discipline and help answer homework questions.
+
+---
+**Detailed course list:**
+
+<iframe src="23FALL_Courselist.pdf" width="100%" height="500px" style="border:none;">
+
+</iframe>
