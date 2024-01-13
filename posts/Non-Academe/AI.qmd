@@ -20,5 +20,8 @@ I am thus optimistic about the development of AI, and feeling the opposite for u
 
 I had witnessed how AI changed one industry once. AI ruined my pleasure in discovering new patterns in the game of Go (refer to previous posts) while bring a more objective standard in scaling. Back then, I would not imaging myself writing to record my random thoughts about it. Interesting to see how life changes.
 
-[^1]: Pacth notes at night, 2024-1-12.
-I realized I've made too many negatives and concessionary logic that makes the paragraph hard to read. I won't revise the post after, but I will try to avoid such writing style in the future.    
+::: callout-notes
+**Review Notes on the night, 2024-1-12** 
+
+I realized I've made too many negatives and concessionary logic that makes the paragraph hard to read. I won't revise the post after, but I will try to avoid such writing style in the future.
+:::
