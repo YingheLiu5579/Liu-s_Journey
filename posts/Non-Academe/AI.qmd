@@ -3,7 +3,7 @@ title: "Random Thoughts: AI"
 author: "Yinghe Liu"
 date: "2024-1-16"
 categories: [Non-Academe]
-description: "Some random thoughts about the usage of AI in my experience"
+description: "Some random thoughts about the usage of AI in my experience."
 ---
 
 I am not a keen user of artificial intellegence in the past until a few months ago when ChatGPT went virus. I tried as people made tons of discussion around it, and it is scarily competent. Now I use it frequently for two purpose: translation and learning how to code.
