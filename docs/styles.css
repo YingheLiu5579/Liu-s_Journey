@@ -1,13 +1,18 @@
-img {
-  border: 1px solid black;
-  background-color: #f0f0f0;
-  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
-  width: 100%; 
-  height: auto; 
-  border-radius: 3px;
-}
-
 .custom-pdf {
     width: 100%; /* 或者其他你想要的宽度 */
     /* 其他样式设置 */
+}
+
+img {
+  border: 0.5px solid black;
+  background-color: #f0f0f0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  width: 100%; 
+  height: auto; 
+  border-radius: 1.65px;
+}
+
+.no-css-effect {
+    background: transparent !important;
+    /* 可以添加其他样式来覆盖CSS效果 */
 }

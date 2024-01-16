@@ -4,6 +4,7 @@ author: "Yinghe Liu"
 date: "2024-1-16"
 categories: [Non-Academe]
 description: "Some random thoughts about the usage of AI in my experience."
+date-modified: "2024-1-16"
 ---
 
 I am not a keen user of artificial intellegence in the past until a few months ago when ChatGPT went virus. I tried as people made tons of discussion around it, and it is scarily competent. Now I use it frequently for two purpose: translation and learning how to code.
@@ -20,3 +21,13 @@ I am thus optimistic about the development of AI, and feeling the opposite for u
 
 I had witnessed how AI changed one industry once. AI ruined my pleasure in discovering new patterns in the game of Go (refer to previous posts) along with a more objective standard in scaling. Back then, I would not imaging myself writing to record my random thoughts about it. Interesting to see how life changes.
 
+:::{.endnote}
+
+---
+
+Jan 16, 2024 Updates
+
+I tried to use the GTPs store offered by OpenAI. It is still a limited service now, but still capable in making me a logo for this website. To my awareness, I am not sure whether such image might invade anyone's interest, so I won't use it. I would like to show everyone what it is like:
+
+<img src="Logo.png" alt="Logo for the website" class="no-css-effect">
+:::
