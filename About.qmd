@@ -1,5 +1,5 @@
 ---
-title: "Liu's Journey"
+title: "About"
 image: Biography_Headshot.jpeg
 about:
   id: about

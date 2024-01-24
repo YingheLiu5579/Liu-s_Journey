@@ -4,23 +4,25 @@ project:
   
 website:
   description: "Yinghe Liu's personal website and blog."
+  title: "Liu's Journey"
   navbar:
     left:
-    - About.qmd
-    - text: "About me"
-      menu: 
-      - Lifestory.qmd
-      - Academe.qmd
-      - CV.qmd
-    - index.qmd
+    - Lifestory.qmd
+    - Academe.qmd
+    - CV.qmd
     right:
+    - About.qmd
     - icon: discord
       href: https://discordapp.com/users/1143984722620448839
     - icon: github
       href: https://github.com/YingheLiu5579
     - icon: envelope
       href: mailto:yingheliu@outlook.com
+    - icon: rss
+      href: index.xml
   back-to-top-navigation: false
+  site-url: https://yingheliu5579.github.io/Liu-s_Journey/
+  
 format:
   html:
     theme: flatly

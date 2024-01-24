@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Recent Posts"
 listing:
   id: post contents
   contents: posts

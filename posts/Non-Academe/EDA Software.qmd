@@ -1,0 +1,75 @@
+---
+title: "A practice of software development: EDA double edit"
+author: "Yinghe Liu"
+date: "2024-1-22"
+categories: [Non-Academe]
+description: "A record of my effort in designing a software that aims to automatically collect, label, and reframe for double-editing purpose."
+lang: zh
+draft: true
+---
+
+这会是一篇篇幅较长的文章，在其中我将记录一款软件的开发过程。作为一个对计算机语言了解不多的初学者，我将大量采用包括但不限于ChatGPT在内的人工智能算法来帮助我，因此所有的成果将在项目验证阶段免费公开可获取。大量的代码注释或未知的词汇讲解都将由深度学习算法进行。
+
+# 设计初衷
+
+在EDA实践过程中，我们发现在对artifacts的修剪中存在较大的不确定性，这是由于汗液的分泌收到多种因素影响。这种不确定性使得我们对结果是否可靠产生了怀疑，因此为了确保每个编辑人员都遵循了编辑手册，我们对每一份具有争议的文件进行了多次编辑。具体对数据的处理手段以及每种编辑所对应的论据在此不进行进一步的讨论，我会在另一篇博客中详细探究。
+
+我们采用的是Mindware所提供的数据收集服务，包括了传感电极，电子信号映射终端，和配套的信息处理软件。就EDA而言，我们现阶段的版本为[EDA 3.2](https://support.mindwaretech.com/manuals/software/eda/3-2/), 最后更新于 29 March 2018. 对于每一份编辑的数据，我们最后的产出结果包括了：
+
+1.  cfg文件
+2.  mwi文件
+3.  mwx文件
+4.  ede2文件
+5.  多份xlsx/CSV 文件
+
+在上述列表中，CSV文件由于直观，可被多种软件展现的高兼容性而广受青睐。我也将基于CSV文件类型进行架构。当然，本项目的目的并非是为了Mindware做配套软件，而是通过尝试对更广泛范围领域内的不同数据进行多重编辑情况下面临的挑战来进行设计。我预想这样的软件工程实际上应当是广泛存在的，这个项目的目的更多是通过我个人作为一个初学者，尝试使用以ChatGPT为代表的人工智能服务来帮助实证研究中的数据收集。任何一个初学者是否能够通过基础的计算机语言来完成特定数据收集是项目的核心。
+
+# 背景介绍
+
+我对数据收集的了解集中于人体行为测算，特别是非侵入性的电信号数据。在完成了编辑之后，我们的csv结果如图所示：
+
+![Mindware Excel Result](Mindware_EDA_CSV.png)
+
+文件中不同的标签页中包含了大量的信息，我们选取了Total SCRs作为关键指标，这是任何编辑的核心行为。我们通过可以判断SCR的slope threshold来判断一个segment中的数据是否收到artifact的影响，但什么样的数据可能是噪音仍在讨论中的限制导致了数据收集过程中的模糊性，进而影响到了一个数据的可重复性。我们的EDA判断标准如下：
+
+\[\]
+
+类似于SCR的数据指标帮助我们我们获得受试者在对应时间段发生的biofeedback数据。比如，在EEG中的Temporal Continuity Check或者HRV中的RR Interval Outlier。通过对数据的某一个指标进行对比，我们可以评估同样的raw data如何可能被不同的修改标准所影响。当同一份文件中相同时间段内出现了不同的Total SCRs时，我们便可以认定不同的决策已经发生。这些不同的决策通常是可被辩护的，但这种差异在大量的文件总量下被放大，不可避免的导致了数据处理结果的差异。
+
+这种measurement error由于科技条件受限或者实验成本通常难以避免（也不可能消灭），我们只能通过后期对数据的处理来得到“对真实发生事件的估算”。
+
+# 关键指标
+
+软件需要满足以下的基本指标：
+
+1.  可互动的界面
+2.  可识别关键指标并合并
+3.  易读的代码
+
+语言的选择：R
+
+# 任务步骤
+
+1.  访问所有文件
+
+2.  定位文件
+
+3.  检索文件内信息的种类
+
+`class`
+
+`as.factor`
+
+`as.character`
+
+`assert`
+
+`filter`
+
+![Screenshot 2024-01-24 at 12.22.30 PM](Screenshot%202024-01-24%20at%2012.22.30%20PM.png)
+
+`ggplot`
+
+`replace`
+
+4.  

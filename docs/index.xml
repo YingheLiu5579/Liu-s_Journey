@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Liu&#39;s Journey</title>
+<link>https://yingheliu5579.github.io/Liu-s_Journey/index.html</link>
+<atom:link href="https://yingheliu5579.github.io/Liu-s_Journey/index.xml" rel="self" type="application/rss+xml"/>
+<description>Yinghe Liu&#39;s personal website and blog.</description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Tue, 16 Jan 2024 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Random Thoughts: AI</title>
+  <dc:creator>Yinghe Liu</dc:creator>
+  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/AI.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I am not a keen user of artificial intellegence in the past until a few months ago when ChatGPT went virus. I tried as people made tons of discussion around it, and it is scarily competent. Now I use it frequently for two purpose: translation and learning how to code.</p>
+<p>ChatGPT makes me feel like it (she, he, them; whatever the pronoun is) really understand me. It can interpret the script as a native speaker, which non of my past experience with softwares had ever achieved. If you have read a post full of typo or inconsistent voice tone, it is probably the result of the combination of my original text with translation.</p>
+<p>As for coding, I use ChatGPT when I don’t know how to achieve a function. For instance, I need to add style to my website. I just directly ask AI what options are available, and then it would teach me with procedures. It saved my time to search online and filter out advertisements on feeds, despite I found sometimes posts somewhere such as Reddit may better address my problem. The embedded Copilot function in Rstudio is convinient as well. This function works perfect when th scaffold is already there.</p>
+<p>I would not underestimate human brain, just thinking the great mankind who create AI makes me marvel. Yet I also see great potentials in such deep learning technique, for its unprecedented execution of human language. I now have no doubt AI would replace many jobs, and dramatically change my life. I don’t know how it is going to affact me, my family, or anything I know about. The deeply rooted insecurity drives me embrace the usage of AI.</p>
+<p>Sometimes I feel lucky that I was born in such a generation that I can witness the big changes in history, while sorry that I may not be the ones who benefit most from it. Every evolution in productivity must come with cost, and predictably more people will be replaced by integrative AI than ever. Maybe more jobs can be built on the new tech, but people in the ruins may never survive from the avalanche.</p>
+<p>I am thus optimistic about the development of AI, and feeling the opposite for unlucky people not taking advantage of it. As part of the potential unfortunate population, I sometimes look forward to such future, where artificial intelligence is able to achieve more creativity and autonomy. I had this evilly prevailing thoughts that the best human can do is to create another more computationally superior species as part of “Earth Culture”. The utopia is less untouchable, of course, with tears of history.</p>
+<p>I had witnessed how AI changed one industry once. AI ruined my pleasure in discovering new patterns in the game of Go (refer to previous posts) along with a more objective standard in scaling. Back then, I would not imaging myself writing to record my random thoughts about it. Interesting to see how life changes.</p>
+<div class="endnote">
+<hr>
+<p>Jan 16, 2024 Updates</p>
+<p>I tried to use the GTPs store offered by OpenAI. It is still a limited service now, but still capable in making me a logo for this website. To my awareness, I am not sure whether such image might invade anyone’s interest, so I won’t use it. I would like to show everyone what it is like:</p>
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Logo.png" alt="Logo for the website" class="no-css-effect"></p>
+</div>
+
+
+
+ ]]></description>
+  <category>Non-Academe</category>
+  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/AI.html</guid>
+  <pubDate>Tue, 16 Jan 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Recent Game Reviews</title>
+  <dc:creator>Yinghe Liu</dc:creator>
+  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Recent Games Review.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After acquiring the new Steam Deck OLED, my device finally has enough performance to run some larger games, among which The Witcher 3 and Elden Ring have been the most addictive for me. Additionally, I’ve tried many multiplayer games with FEI, but the quality of these games varies greatly.</p>
+<p><strong>The Witcher 3: Wild Hunt </strong></p>
+<p>The Witcher 3 has been in my library for a year, but my previous gameplay experience was limited to the tutorial due to insufficient device performance. The new device motivated me to try it again on a new platform. I spent about fifty hours around the Christmas holiday to complete the main storyline of The Witcher 3, stopping just before the last stop of Ciri’s journey. Having already seen the plot in the Netflix series, I lost interest in the game’s storyline and had little expectation for the “finding the daughter” plot development. I even bought the DLC, but it might wait until the next holiday to be played.</p>
+<p>I really like the world structure of The Witcher 3 - vast and well-crafted. The most interesting part of the gameplay is the freedom to make choices that affect the story’s progression. I chose to protect everyone around me as much as possible, with the most challenging decision being in the Heart of the Tree quest, where I kept reloading saves to try different outcomes. The combat isn’t very challenging at normal difficulty, which is friendly for someone like me who struggles with FPS games. Exploring the map and clearing question marks is addictive. However, as a classic game released years ago, I encountered issues like rough model rendering, which might be considered a downside.</p>
+<p><strong>The Elden Ring</strong></p>
+<p>The Elden Ring is incredibly fun and very much to my taste! I’ve been engrossed for nearly a hundred hours, and that’s just on my first run. I’m only left with the final boss, the Elden Beast, to complete the main storyline. The design of this last boss is somewhat frustrating; as a melee berserker, I had to turn into a walking simulator, and I hope I won’t get stuck in the next few days.</p>
+<p>The absence of excessive tutorials and storylines is great! I dislike when narrative takes precedence over gameplay, forcing me to focus on the main story. In the Elden Ring, I can freely explore the map and choose quests. Gradually piecing together hidden stories by exploring and interpreting texts is rewarding. The combat system, with its variety of weapons like two-handed, one-handed, shields, magic, bows, and even fists, is fantastic. I chose berserker without any spoilers, which was challenging. I’m looking forward to trying different builds, perhaps a noble mage in my next run. The variety of prayers and summons also satisfies my curiosity.</p>
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Elden Ring IGN Meme .jpeg" class="img-fluid" alt="Memes from IGN"> <em><strong>Memes draw from IGN.</strong> Unique notes system allows players to leave messages for others. Sometimes the messages are helpful only in certain language context.</em></p>
+<p>However, there are drawbacks. The game’s exquisite graphics, wallpaper-worthy screenshots, demand high performance; my Steam Deck can only maintain 30-40 FPS, and I experience graphic tearing when moving fast. Another issue is the game’s unchangeable difficulty level. Although I appreciate not having to choose a difficulty, the strict death penalty might deter some players. As a fan of rogue-like games, this isn’t a big problem for me.</p>
+<p><strong>Portal 2</strong></p>
+<p>An unimaginable <strong>masterpiece</strong>!I didn’t have high expectations at first, considering it’s an older game from over a decade ago. But its reputation and being a Valve product made me give it a try. With a backdrop of overwhelmingly positive reviews, I was astounded by the game’s design.</p>
+<p>Smooth is how I describe my gameplay experience. With fine graphics and fluid motion, there was no lag. Unlike older games with rough modeling, like The Witcher 3, Portal 2 demonstrated what a benchmark in the industry looks like. The core game design, built into its name, is amazing. Constantly using portals to traverse spaces and solve puzzles was an incredible experience. The most unbelievable part is the physics engine - how such a smooth experience was created is beyond me.</p>
+<p>I even hesitated to play further, as each bit of game content consumed made me feel a sense of loss. With its affordable price, low system requirements, excellent graphics, and brilliant game concept, Portal 2 is perhaps the most recommendable game I’ve ever encountered.</p>
+<p><strong>End Note</strong></p>
+<p>These are the three most recommendable games from my Christmas holiday gaming experience. They’re all worth spending time on. <del>If I don’t update my blog frequently, I’m probably immersed in these games.</del> Stay tuned for updates on other games I’ve experienced.</p>
+
+
+
+ ]]></description>
+  <category>Non-Academe</category>
+  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Recent Games Review.html</guid>
+  <pubDate>Tue, 16 Jan 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Website is alive now!!!</title>
+  <dc:creator>Yinghe Liu</dc:creator>
+  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Launch Annoucement.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After two weeks of preparation, the website is now available to the public!!! I have to confess I stop working on the website for a while because I was busy with “The elden ring” and “The Witcher 3”. But now I am back to work and I will try to update the website as often as possible.</p>
+<p><strong>What’s next</strong></p>
+<p>I will try to add more content to the website and enable google analytics so that people can locate the website by search engine. Currently, I am still adapting the new semester. I will be focusing on finishing the rest content of “my lifestory” and “EDA-related posts”.</p>
+
+
+
+ ]]></description>
+  <category>Non-Academe</category>
+  <category>Announcement</category>
+  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Launch Annoucement.html</guid>
+  <pubDate>Wed, 10 Jan 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Addressing Reproducibility of Electrodermal Activity Data (EDA).</title>
+  <dc:creator>Yinghe Liu</dc:creator>
+  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/Adressing reproducibility of EDA.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The slides are from a final semester project, so it is intentianally brief for time sake. For more detailed information about how I learned about EDA and some effort I’ve made to improve reproducibility, refer to some other posts.</p>
+</div>
+</div>
+<p><iframe src="EDA_Reproducibility_brief_notes.pdf" width="100%" height="500px" style="border:none;"></iframe></p>
+<p><strong>Slide 1 &amp; 2: Topic Intro/What is EDA</strong></p>
+<p>Electrodermal activity (EDA) refers to small changes in the electrical activity of the skin, usually occurring 1–3 seconds following the onset of a stimulus <sup>1</sup>. Since the late 19th century, it has been recognized as a useful measurement to estimate human emotional responses, especially under stressful situations. Historically, it has had many past names, such as sympathetic skin response (SSR) or skin conductance level (SCL). <sup>2</sup> They may not all follow the same measurement paradigm, but all conceptualize targeting sweat secretion.</p>
+<p><strong>Slide 3: Mechanisms of EDA</strong></p>
+<p>Overall, we can explain EDA using an information processing system model that contains Input, Information Process, and Output. When an outside stressor generates some stimulation (Input), the signals then pass down to the CNS for further processing. The outcome is executed by the peripheral system, or more specifically, the autonomic system, which controls sweat glands to produce more secretion, resulting in changes in skin surface conductivity. We have learned from past courses that such a mechanism may represent evolutionary adaptations to mobilize body resources to respond to challenging events.</p>
+<p>The picture on the right illustrates how we measure EDA by attaching electrodes to the palms. Palms, rather than areas under the arms, are more sensitive to stressors, but may not be the best measurement loci. Fingertips, instead, are now found to be the more recommended loci.<sup>3</sup> We have decided to remain consistent with our manual that still uses palm loci. In addition to palms, electrodes may also be attached to the chest cavity to measure respiration rate and heart rate. As discussed later, these measurements are usually coupled together to ensure the convergence of autonomic system responses. <sup>4</sup></p>
+<p><strong>Slide 4: Who uses EDA?</strong></p>
+<p>EDA is widely used in the following psychology-related areas:</p>
+<p>• Emotion Research: Investigating how individuals react to emotional stimuli, such as images, videos, or emotional experiences. <sup>5</sup></p>
+<p>• Stress and Anxiety Studies: How individuals react in stressful situations. <sup>6</sup></p>
+<p>• Affective Computing and Interactions (My case)</p>
+<p>• Pain Perception</p>
+<p>• Biofeedback in PNS</p>
+<p>• Marketing and Consumer Behavior: How people react to marketing stimuli, even used in tourism. <sup>7</sup></p>
+<p>• Clinical Application: Anxiety-related Disorders/Traumatic experiences: Used in clinical psychology and psychiatry to assess physiological responses in individuals with conditions such as anxiety disorders, post-traumatic stress disorder (PTSD), and phobias. <sup>8</sup></p>
+<p><strong>Slide 5 &amp; 6: Paradigm Examples</strong></p>
+<p>In my case, we use the Trier Social Stress Test (TSST) to create tension by asking them to pretend to be an interview candidate.<sup>9</sup> The Iowa Gambling Task (IGT) investigates how people make decisions and conduct risky behaviors. <sup>10</sup> Lie Detector Tests (Polygraph Examinations) are the first time I have heard of this technique. In this test, people react to questions that evoke considerable emotional responses.</p>
+<p>From one of our past coursework, we learned about some platforms that share protocols. The figure shown in the slide is a screenshot of TSST from Protocol.io.<sup>11</sup> We can see some interesting descriptions: “Heart rate, EDA, and respiration rate are assessed continuously,…, [and] participants are asked to abstain from …, smoking, using substances, …, engaging in physical exercise…” Some factors are very intuitive, such as physical exercise, and were realized by early researchers, but others were gradually learned in the following decades. <sup>12</sup></p>
+<p>Here, the reproducibility crisis emerges. For instance, an early dataset may not exclude smoking as artifacts, whereas later datasets benefit from recent studies and remove smoking-related skin conductance responses. This usually shows up as different criteria in manuals. Another good example would be loci choice, as discussed previously.</p>
+<p><strong>Slide 7 &amp; 8: Basic Properties</strong></p>
+<p>As shown in the picture, it takes about 1 to 3 seconds for skin conductance to occur. The latency is the state where our body receives the stimuli, processes the information, and generates reactions. The amplitude is how dramatically the sweat glands secrete accordingly.</p>
+<p>The picture in slide 8 shows two major components of EDA data: tonic and phasic. The tonic component refers to the non-specific, steadily changing rhythms of the autonomic nervous system, and the phasic component refers to event-related responses that most studies target. They are vital in controlling variables.</p>
+<p><strong>Slide 9 &amp; 10: Influencing Factors</strong></p>
+<p>EDA is complex because it involves many influencing factors. The major ones are technique, environment, and individual differences. Technique factors range from electrode materials to measured loci; environmental factors include temperature and humidity; individual differences encompass drugs, exercise, respiration, age, and skin water content. <sup>13</sup>Among all factors, we can control technique, environment, skin water content, drugs, and exercise status, but some individual factors are not subject to laboratory settings. The most commonly seen uncontrolled factors are respiration, connection stability, miscellaneous actions such as sudden movement, and pressing electrodes. On top of this, we need to delete falsely marked skin conductivity responses resulting from software settings.</p>
+<p><strong>Slide 11 &amp; 12: Artifacts Demonstration</strong></p>
+<p>Illustrations of irregular respiration and pressing on the sensor as artifacts.</p>
+<p>Irregular respiration may lead to sudden changes in EDA value, with few standardized methods that can rule out these artifacts. <sup>14</sup></p>
+<p><strong>Slide 13 &amp; 14: Cognitive Bias</strong></p>
+<p>In practice, I realized that EDA editing is under the threat of cognitive bias. This is primarily because of the ambiguity in describing artifacts, such as respiration. We consider “2 to 3 times larger than the average” as irregular, but finding the average may be highly subject to human error. The pictures I show in the slides are two examples where we have trouble identifying the average respiration rate of a task. A messy file part in the earlier half may change how editors value the rest half.</p>
+<p><strong>Slide 15: Efforts towards Open Science</strong></p>
+<p>We have implemented some quality assurance processes to protect our results from cognitive bias. Firstly, we decided to double-edit files that might be controversial. By introducing a second editor, we can provide more diversified interpretative perspectives and correct the misuse of editorial manuals by a single editor. Then we labeled all major artifacts with a code, as shown on the right slide. Any modification made to the raw data would be recorded with the “Type-Time” abbreviation so that we can track all objective decisions. Additionally, I also use programming languages to make the generation of double-edit files and the transfer of data more replicable. If the EDA data in the study I engage in were eventually openly shared, I would have at least the confidence to speak of “an attempt towards open science.”</p>
+<p><strong>Slide 16: Many-Analyst Approach</strong></p>
+<p>In fact, the ambulatory EDA setting has raised some concerns in the last decade.<sup>15</sup><sup>16</sup>, but no study has quantitatively assessed how dramatically human-led measurement errors can be affected by standardized manuals in an ambiguous setting. Thus, I designed a study that uses a many-analyst approach to estimate how editors from different backgrounds act on the same raw EDA data.</p>
+<p>Editors will be provided with raw datasets from a standardized test such as TSST for analysis. Other coupled variables used during assessment are also included, including heart rate variance, impedance, and respiration rate. Any manipulation of the dataset would be recorded by a unified coding system, such as “Type-Time” abbreviations. Editors would be required to share their applied manuals, which would be provided by a third-party or originated by the editors. Ultimately, the overlap of the results could be estimated by comparing different data processing results. In our in-group trial where editors used the same manual and were trained by the instructor concurrently, we achieved an 88 percent consistency rate.</p>
+<p>For more information about how we achieved the preliminary results, please refer to the other blog to be posted soon.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Scarpa, A., &amp; Raine, A. (1997). Psychophysiology of anger and violent behavior. <em>Psychiatric Clinics of North America</em>, <em>20</em>(2), 375-394.↩︎</p></li>
+<li id="fn2"><p>Amiez, C., &amp; Procyk, E. (2019). Midcingulate somatomotor and autonomic functions. <em>Handbook of clinical neurology</em>, <em>166</em>, 53-71.↩︎</p></li>
+<li id="fn3"><p>Fredrikson, M., Furmark, T., Olsson, M. T., Fischer, H., Andersson, J., &amp; Långström, B. (1998). Functional neuroanatomical correlates of electrodermal activity: a positron emission tomographic study. <em>Psychophysiology</em>, <em>35</em>(2), 179-185.↩︎</p></li>
+<li id="fn4"><p>Fowles, D. C. (1980). The three arousal model: Implications of Gray’s two‐factor learning theory for heart rate, electrodermal activity, and psychopathy. <em>Psychophysiology</em>, <em>17</em>(2), 87-104.↩︎</p></li>
+<li id="fn5"><p>Sequeira, H., Hot, P., Silvert, L., &amp; Delplanque, S. (2009). Electrical autonomic correlates of emotion. <em>International journal of psychophysiology</em>, <em>71</em>(1), 50-56.↩︎</p></li>
+<li id="fn6"><p>Noble, R. E. (2002). Diagnosis of stress. <em>Metabolism-Clinical and Experimental</em>, <em>51</em>(6), 37-39.↩︎</p></li>
+<li id="fn7"><p>Caruelle, D., Gustafsson, A., Shams, P., &amp; Lervik-Olsen, L. (2019). The use of electrodermal activity (EDA) measurement to understand consumer emotions–A literature review and a call for action. <em>Journal of Business Research</em>, <em>104</em>, 146-160.↩︎</p></li>
+<li id="fn8"><p>Colvonen, P. J., Glassman, L. H., Crocker, L. D., Buttner, M. M., Orff, H., Schiehser, D. M., … &amp; Afari, N. (2017). Pretreatment biomarkers predicting PTSD psychotherapy outcomes: a systematic review. <em>Neuroscience &amp; Biobehavioral Reviews</em>, <em>75</em>, 140-156.↩︎</p></li>
+<li id="fn9"><p>Allen, A. P., Kennedy, P. J., Dockray, S., Cryan, J. F., Dinan, T. G., &amp; Clarke, G. (2017). The trier social stress test: principles and practice. <em>Neurobiology of stress</em>, <em>6</em>, 113-126.↩︎</p></li>
+<li id="fn10"><p>Martínez-Selva, J. M., Sánchez-Navarro, J. P., Bechara, A., &amp; Román, F. (2006). Brain mechanisms involved in decision-making. <em>Revista de neurologia</em>, <em>42</em>(7), 411.↩︎</p></li>
+<li id="fn11"><p>Heekerens, J. B. (2023). Inducing Psychosocial Stress in the Laboratory: A Study Protocol for the Trier Social Stress Test (TSST). <em>Www.protocols.io</em>. https://www.protocols.io/view/inducing-psychosocial-stress-in-the-laboratory-a-s-e6nvwj85zlmk/v3‌↩︎</p></li>
+<li id="fn12"><p>Posada-Quintero, H. F., &amp; Chon, K. H. (2020). Innovations in electrodermal activity data collection and signal processing: A systematic review. <em>Sensors</em>, <em>20</em>(2), 479.↩︎</p></li>
+<li id="fn13"><p>Posada-Quintero, H. F., &amp; Chon, K. H. (2020). Innovations in electrodermal activity data collection and signal processing: A systematic review. <em>Sensors</em>, <em>20</em>(2), 479.↩︎</p></li>
+<li id="fn14"><p>Topoglu, Y., Watson, J., Suri, R., &amp; Ayaz, H. (2020). Electrodermal activity in ambulatory settings: a narrative review of literature. In <em>Advances in Neuroergonomics and Cognitive Engineering: Proceedings of the AHFE 2019 International Conference on Neuroergonomics and Cognitive Engineering, and the AHFE International Conference on Industrial Cognitive Ergonomics and Engineering Psychology, July 24-28, 2019, Washington DC, USA 10</em> (pp.&nbsp;91-102). Springer International Publishing.↩︎</p></li>
+<li id="fn15"><p>Topoglu, Y., Watson, J., Suri, R., &amp; Ayaz, H. (2020). Electrodermal activity in ambulatory settings: a narrative review of literature. In <em>Advances in Neuroergonomics and Cognitive Engineering: Proceedings of the AHFE 2019 International Conference on Neuroergonomics and Cognitive Engineering, and the AHFE International Conference on Industrial Cognitive Ergonomics and Engineering Psychology, July 24-28, 2019, Washington DC, USA 10</em> (pp.&nbsp;91-102). Springer International Publishing.↩︎</p></li>
+<li id="fn16"><p>Smets, E., De Raedt, W., &amp; Van Hoof, C. (2018). Into the wild: the challenges of physiological stress detection in laboratory and ambulatory settings. <em>IEEE journal of biomedical and health informatics</em>, <em>23</em>(2), 463-473.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Academe</category>
+  <category>Electrodermal Activity</category>
+  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/Adressing reproducibility of EDA.html</guid>
+  <pubDate>Mon, 08 Jan 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Prospects of 2024</title>
+  <dc:creator>Yinghe Liu</dc:creator>
+  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Prospects of 2024.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Holidays, as a societal tradition, are often imbued with specific meanings, perhaps to commemorate a person or a significant event. However, those familiar with me know that I don’t celebrate holidays; I only observe vacations because, to me, every day holds no particular “meaning”. I simply appreciate the free time and don’t assign any special meaning to it. In fact, the two words I dislike the most are “meaning” and “proof,” as they both carry broad and intricate connotations. I believe that “purpose” and “support” are often better expressions in most contexts. Perhaps one day, I will write a blog post to share my philosophical viewpoints.</p>
+<p>Now, back to the topic of holidays, why do I choose to plan and reflect at the beginning of a new year, which seems contradictory to my previous narrative? It’s challenging to describe the subtle shift in my mindset, perhaps it’s the change in the date on my phone’s lock screen, going from a number I’ve been accustomed to for hundreds of days to a new and unavoidable one. This artificial categorization reminds me that my vacation balance is running low, prompting anxiety and leading me to review the past year. Another reason is the upcoming new semester, during which I might struggle to find spare time for relaxation.</p>
+<p>My most noticeable perception is the decline in my physical condition over the past months. From June to September, I maintained vigorous exercise for at least two hours per week, but by the end of the year, I felt exhausted every day, even lacking the motivation to go grocery shopping. This change was gradual, and perhaps it was one day in October when certain circumstances disrupted my exercise routine, leading to a gradual decline. Oh, I remember now, I got infected with COVID-19 during the seasonal transition from autumn to winter, which caused me to abandon my previous routine. I hope that in the coming year, I can regain a rhythm of exercise, at least maintaining a certain biological rhythm.</p>
+<p>As for interpersonal relationships, most of my time is still invested in a friendship that has lasted for four years, with FEI accompanying me through countless days and nights. Other friends from before college only occasionally exchange holiday greetings, while most of them remain silently in my contact list, a testament to the passage of time. Sometimes, I suddenly miss some past experiences and have the urge to greet old friends, but considering I have no plans to return home in the near future, I can only reluctantly give up. I’d rather not bring disappointment. I have also made some new friends, most of whom are classmates at school. Apart from that, my parents still call me regularly, and I sometimes share life’s hardships with my sister. There has been no progress in romantic relationships, and I continue to enjoy my single life. Maintaining interpersonal relationships is difficult to force, and purposefully pursuing them can be exhausting. <del>Being single is truly enjoyable!😝</del></p>
+<p>In academics, I have made significant breakthroughs. At the beginning of the year, I set academic research as a long-term plan for the next few years and identified areas of interest. I maintained my performance in courses and began reading some literature. I must admit that some of the literature is challenging to read, and some of the vocabulary remains my biggest reading obstacle. But as I became familiar with the structure of academic literature, I no longer resisted reading. I also joined two research groups, and the process of behavioral science research turned out to be simpler than I had imagined. I deeply admire the genius experimental designs and concepts. I also attempted to take on the responsibility of a TA, but unfortunately, limited by my own knowledge, I didn’t help the students in that course much, and I feel deeply responsible for that.</p>
+<p>Academics will be a significant focus for the next period. I deliberately gave up the application window at the end of 2023 because I am not yet qualified to be a Ph.D.&nbsp;student. In the coming weeks, I will refine my proposal on EDA repeatability and seek support. Additionally, I will try to find a position to stay in academia, which is another headache. I hope to find a research group that interests me and is willing to take me in 🥹.</p>
+
+
+
+ ]]></description>
+  <category>Non-Academe</category>
+  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Prospects of 2024.html</guid>
+  <pubDate>Tue, 02 Jan 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Game of Go</title>
+  <dc:creator>Yinghe Liu</dc:creator>
+  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/The Game of Go.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The original text of is blog is written in Chinese so many terms may not be appropiately described without cultural context. The translation is done by ChatGPT.</p>
+</div>
+</div>
+<p>My exposure to Go began as a childhood interest. Many Chinese parents encourage their children to learn Go more as a targeted investment rather than simply nurturing an interest. My mother believed that learning Go was beneficial for a child’s intellectual development. Thus, the pursuit of learning Go seemed more about idolizing intelligence rather than seeking enjoyment. I will attempt to discuss Go’s key cognitive abilities from an empirical research perspective in this article.</p>
+<section id="what-is-go" class="level1">
+<h1>What is Go?</h1>
+<p>Before delving into a detailed discussion, it’s necessary to define our subject: Go. Go is a board game where two players alternately place stones on a board. Once placed, the stones cannot be moved. When a player’s stones are completely surrounded by the opponent’s, they are removed from the board. The game ends when a certain number of stones are removed, and the player with more stones remaining on the board wins. A standard Go board is a 19x19 grid, and the stones are black and white, placed at the intersections. The Go board looks like the following image:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/GO board.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Go Board</figcaption>
+</figure>
+</div>
+<p>Of course, there are many variations to Go’s rules. For example, the board size can be 9x9. In certain contexts, minor rules of the game might also vary. A well-known example is the endgame rule in Go. In Japan and Korea, the endgame involves “counting points,” while in Chinese rules, it’s about “counting stones” (essentially, both are methods of quantifying territory, but implemented differently). These minor rules don’t touch upon the essence of Go, so I will not discuss them here.</p>
+</section>
+<section id="the-competitive-nature-of-go" class="level1">
+<h1>The Competitive Nature of Go</h1>
+<p>To me, the essence of Go, like other board games such as chess, lies in decision-making under ambiguous conditions. This decision-making is purely intellectual, and the outcomes are uncertain. In such scenarios, the competitiveness of Go emphasizes understanding and judging the situation on the board. A small change in a local situation can affect the entire course of the game. This impact is inexhaustible, as the old saying goes, “no two games are the same.” This makes finding the optimal model difficult, as it requires a massive amount of computation for exhaustive methods, keeping Go interesting even without time constraints. Therefore, people have been looking for more efficient ways to solve this problem. In the past, this optimization was referred to as “chess theory,” but now there’s a more efficient alternative: computational intelligence/artificial intelligence.</p>
+<p>More efficient methods of fitting optimal models have changed how Go enthusiasts acquire professional knowledge. In the past, enthusiasts learned by studying the game records of top players or through verbal instruction from more experienced players. Now, people can simply open an information terminal to simulate winning probability curves and learn different strategies from the fluctuations in winning probabilities. Powerful and objective algorithms undoubtedly weaken the discourse power of high-level players in seeking the best Go solutions and also provide low-level enthusiasts with a cheaper, more reliable way to improve their competitive skills. Yet, deep learning algorithms based on neural network simulation models haven’t completely solved the problem of the optimal model. They are essentially a black box, which to some extent preserves the competitiveness of Go. Within a limited time frame, human players can still gain an advantage through their understanding of the game.</p>
+<p>In fact, time constraints in Go have evolved over the past decades. Multi-day formats were very popular in Japan in the last century, and now only a few major tournaments retain this format. I once wrote an assignment for a writing class, pretending to be an advisor who supports this view. In my view, reducing time constraints in competitive play effectively maintains the competitiveness of Go. In this scenario, the competitiveness of Go is no longer just about understanding the game, but about balancing understanding of the game with effective decision-making within a limited time.</p>
+<iframe src="Reform of Time rule.pdf" width="100%" height="500px" style="border:none;">
+</iframe>
+<p>The changes brought by new technologies have led to a great sense of loss. The simplicity and straightforwardness of winning probability changes brought by deep learning algorithms made me miss the joy of pondering over game records in the past, leaving me somewhat nostalgic.</p>
+</section>
+<section id="characteristics-of-competetive-go-players" class="level1">
+<h1>Characteristics of Competetive Go Players</h1>
+<p>The decision-making process under pressure involves several classic psychological concepts, including attention control, working memory, information processing speed, cognitive flexibility, inhibitory control, risk assessment, and logical deduction. Readers familiar with psychology may recognize that these traits form a common concept: “executive function.”</p>
+<p>Unfortunately, empirical studies based on Go are scarce in English literature, possibly due to cultural differences and a lack of samples. Go is highly popular in East Asia, but not as much in other countries, leading to most research originating from East Asian populations. However, the number of professional Go players is very limited, with only about a thousand active players. Participant consent and cooperation are required for research, further limiting the number of study samples. Therefore, Go research often relies on a small sample size, affecting the reliability and universality of the findings. Additionally, the reliability of cognitive tests or questionnaires is an issue. To control costs, researchers often choose simple tests, such as “counting stones” or “counting points,” which don’t fully reflect the competitiveness of Go.</p>
+<p>In English literature, articles based on deep learning far outnumber discussions on cognitive phenomena related to Go. I tried searching Google Scholar with Chinese keywords (围棋, 智力, 认知) and only retained peer-reviewed results. The results were also mostly concentrated in the field of deep learning algorithms, possibly related to the literature search engine I used. Similarly, I might have missed literature based on Korean or Japanese. This is an important language barrier in information communication, but currently, I have no solution.</p>
+<p>In the following, I will select an influential English-language article for discussion. At the beginning of this century, Japanese researchers (Masunaga &amp; Horn, 2001)<sup>1</sup> attempted to use Go as a research sample to test intelligence components related to professionalism. In the article, they described:</p>
+<blockquote class="blockquote">
+<p>The capabilities expressed in some forms of expertise—the problem solving, reasoning, and feats of memory seen in expert performance in the games of chess and GO, for example—are similar to the abilities described as indicating the forms of human intelligence that decline with age in adulthood (i.e., Gf, SAR, Gs): the problems appear to be as novel and the levels of complexities appear to be as high (Johnson, 1997; Mechner, 1998).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Gf: fluid reasoning; SAR: short-term apprehension and retrieval memory; Gs: cognitive speed.</p>
+</blockquote>
+<p>However, after a detailed examination, I found that one of the cited articles is difficult to trace (Mechner, 1998)<sup>2</sup>, and the other is merely a news report (Johnson, 1997)<sup>3</sup>, suggesting that the qualities mentioned in the article as advantageous in Go might be the authors’ inductive summaries based on past experience. The tests used in the study were divided into two categories: adaptive tests involving Go and classic test tasks not involving Go, as seen in Table 2 of the article.</p>
+<p>The results showed that all cognitive tests not involving Go did not reflect real competitive levels, while tests containing professional content could better predict real competitive levels. When I learned Go, we had some consensus on successful professional players, such as “strong calculation ability,” which was also the main target of the <strong>Go-related adaptive test sub-items</strong> in Masunaga &amp; Horn (2001). The results supported the <strong>significant role of executive function in competitive success in Go</strong>. At the same time, it’s especially worth noting that there was no significant difference in <strong>executive function in non-Go test items</strong> among Go enthusiasts of different levels. This indicates that the accumulation of professional content in Go is also an extremely important trait for success, especially for young enthusiasts. <strong>The accumulation of professional knowledge allows players to maintain a competitive state even after a decline in executive function.</strong> Similar conclusions have been reflected in a very similar field, chess. This game, like Go, has high professionalism, complexity, and pure intellectual competition, but has a larger sample size compared to Go (Boury-Brisset et al., 2016)<sup>4</sup>.</p>
+<p>Here we reach preliminary conclusions:</p>
+<ul>
+<li><p>Empirical studies based on Go are mostly focused on algorithms, rather than cognition and behavior.</p></li>
+<li><p>People good at Go do not show significant advantages in general executive function tests.</p></li>
+<li><p>Go contains a large amount of professional content, and the accumulation of this professional content is an important trait for becoming a strong Go player.</p></li>
+</ul>
+<p>It’s particularly important to emphasize that the key conditions required for empirical research are imperfect in the field of Go, so some traits that are difficult to quantify may be overlooked. Other factors I can think of include: age when starting to play Go, training duration, economic status. Popular analyses of the personality traits of top players also lack representativeness. I will gradually refine the related research I read and try to compile them into a separate blog.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Masunaga, H., &amp; Horn, J. (2001). Expertise and age-related changes in components of intelligence. <em>Psychology and aging</em>, <em>16</em>(2), 293.↩︎</p></li>
+<li id="fn2"><p>Mechner, D. A. (1998). All systems go. <em>Sciences</em>, <em>38</em>(1), 32.↩︎</p></li>
+<li id="fn3"><p>Johnson, G. (1997). To test a powerful computer, play an ancient game.↩︎</p></li>
+<li id="fn4"><p>Burgoyne, A. P., Sala, G., Gobet, F., Macnamara, B. N., Campitelli, G., &amp; Hambrick, D. Z. (2016). The relationship between cognitive ability and chess skill: A comprehensive meta-analysis. <em>Intelligence</em>, <em>59</em>, 72-83.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Academe</category>
+  <category>The Game of Go</category>
+  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/The Game of Go.html</guid>
+  <pubDate>Mon, 01 Jan 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/Alpha GO.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Tech Problems</title>
+  <dc:creator>Yinghe Liu</dc:creator>
+  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Tech Problems.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is likely a place for me to spill the beans on the struggles within the web development🤬.</p>
+</div>
+</div>
+<ol type="1">
+<li>Wechat share button [Unsolved]</li>
+</ol>
+<p>Wechat disabled the Javascript hyperlink sharing function. I need to figure out a way to share my blog to Wechat. It seems that I am forced to use the Wechat QR code to share my blog.</p>
+<blockquote class="blockquote">
+<p><del>“张小龙，____”</del></p>
+</blockquote>
+<ol start="2" type="1">
+<li>Render the website [Solved]</li>
+</ol>
+<p>Something went wrong when I tried to render the website. It is stuck in one of my past version of the webcite, yet once I clicked the <code>Liu's Journey</code> page, the problem disappeared. I am not sure what happened. I will keep an eye on it.</p>
+<p>Dec 31 2023 Update: I figured out the problem in the quarto official guideline. The <code>Freeze</code> function is used during rendering. Add <code>Freeze: True</code> to force rendering.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Render Issue.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Render Issue</figcaption>
+</figure>
+</div>
+<p>Link to the guideline: <a href="https://quarto.org/docs/output-formats/html-basics.html">https://quarto.org/docs/output-formats/html-basics.html</a></p>
+<ol start="3" type="1">
+<li>Comments on Website [Unsolved]</li>
+</ol>
+<p>I need to figure out a way to add comments on my website.</p>
+<p>Jan 12 2024 Update: I realized I enabled the comment function on my website by default. It is achieved by hypothesis.io. Meanwhile, a new problem occurred. As the comment made, the text on the webpage will be highlighted. I need to figure out a way to disable the highlight function to keep reading experience intact. I am also not certain whether the comments will be kept if I update the website. I will keep an eye on it.</p>
+<ol start="4" type="1">
+<li><p>RSS Feed [Unsolved]</p></li>
+<li><p>Google Analytics [Unsolved]</p></li>
+<li><p>Git push [Solved]</p></li>
+</ol>
+<p>I met a problem when I tried to push my website to Github. I got the following error message:</p>
+<blockquote class="blockquote">
+<p>Logging at level: debug GitHub Pages: github-pages v228 GitHub Pages: jekyll v3.9.3 Theme: jekyll-theme-primer Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0 Requiring: jekyll-github-metadata Requiring: jekyll-seo-tag Requiring: jekyll-coffeescript Requiring: jekyll-commonmark-ghpages Requiring: jekyll-gist Requiring: jekyll-github-metadata Requiring: jekyll-paginate Requiring: jekyll-relative-links Requiring: jekyll-optional-front-matter Requiring: jekyll-readme-index Requiring: jekyll-default-layout Requiring: jekyll-titles-from-headings GitHub Metadata: Initializing… Source: /github/workspace/./docs Destination: /github/workspace/./docs/_site Incremental build: disabled. Enable with –incremental Generating… Generating: JekyllOptionalFrontMatter::Generator finished in 8.726e-06 seconds. Generating: JekyllReadmeIndex::Generator finished in 4.368e-06 seconds. Generating: Jekyll::Paginate::Pagination finished in 2.514e-06 seconds. Generating: JekyllRelativeLinks::Generator finished in 2.3323e-05 seconds. Generating: JekyllDefaultLayout::Generator finished in 9.617e-06 seconds. Generating: JekyllTitlesFromHeadings::Generator finished in 5.53e-06 seconds. Rendering: assets/css/style.scss Pre-Render Hooks: assets/css/style.scss Rendering Markup: assets/css/style.scss github-pages 228 | Error: No such file or directory @ dir_chdir - /github/workspace/docs</p>
+</blockquote>
+<p>It is due to github try to render the website bu jekyll in default. Problem solved by following guidance provided by quato official doc.</p>
+<p>Link to the guideline: <a href="https://quarto.org/docs/output-formats/html-basics.html">https://quarto.org/docs/output-formats/html-basics.html</a></p>
+<ol start="7" type="1">
+<li>Reference [Unsolved]</li>
+</ol>
+<p>I am trying to add references to my articles. .bib file seems too complicated, but footnotes are not working appropriately. I will try to figure out a way to add references to my articles.</p>
+
+
+
+ ]]></description>
+  <category>Non-Academe</category>
+  <category>Announcement</category>
+  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Tech Problems.html</guid>
+  <pubDate>Fri, 29 Dec 2023 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Welcome To My Blog!</title>
+  <dc:creator>Yinghe Liu</dc:creator>
+  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Say_Hello.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Welcome! This is my first blog post. At the end of 2023, blog seems to be out of fashion, but I still want to build up a place where I can share my thoughts and life stories. A personal website helps me concentrate on consolidating the contents and organizing my thoughts.</p>
+<p>I tried many social media platforms such as Twitter or Weibo, yet sooner I realized the content provided by these social media distract me from creating considered outputs. They become more likely a place for me to consume information and interact with others. The feeds are rich, diverse, and sometimes overwhelming. Thus, I decided to build a more freestanding place for publishing. I said to myself:“Time to engage with the world, and share your thoughts with others.”</p>
+<p>I was concerned about to what extend should I share my personal life. I am not sure if I should share my personal life stories, or just focus on the professional side. Would personal details scarify privacy and security? Would it be too much to share? I am still not sure about the answer, but I will try to balance the two sides.</p>
+<p>The blogs are <strong>not</strong> serious output of arguements. You will propablly read two types of lanuage tone, one by my written in English and another one translated from Chinese. I use mostly chatGPT for this purpose, shamefully I may never be able to write so authenticly in English as AI does. If you have any idea after reading my blogs, help me learn more🥹! ! You may also reach me via email, discord, or even steam. I am always open to new ideas and thoughts.</p>
+
+
+
+ ]]></description>
+  <category>Non-Academe</category>
+  <category>Announcement</category>
+  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Say_Hello.html</guid>
+  <pubDate>Fri, 29 Dec 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Biography_Headshot.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>My Practice of Electrodermal Activity Data (EDA).</title>
+  <dc:creator>Yinghe Liu</dc:creator>
+  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/My Practice of Electrodermal Activity Data.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I begin my practice with electrodermal activity data (EDA) from a project named Parent Regulation, Engagement, Stress, and Health (<a href="https://csc.la.psu.edu/research/funded-research-projects/parent-regulation-engagement-stress-and-health-presh/">PRESH</a>) Study. The study is lead by professor Lunkenheimer and administered in Penn State. I am a research assistant that helps with data collection, a job common for a undergraduate.</p>
+<p>The PRESH study aims to investigate the relationship between parent-child interaction and children’s health. More specifically, the study focuses on how the parent-child reaction pattern reacts with disciplinary practices. In conceptual terms, the study is interested in how parent and child’s physiological reaction to each other and disciplinary practices within th framework of laboratory settings. Parents and children are asked to perform a series of tasks, including the Parent-Child Challenge Task (PCCT) and the Trier Social Stress Test (TSST). We collect Heart rate, electrodermal activity, and respiratory rate in both PCCT and TSST. In this post, I will focus on EDA data.</p>
+<blockquote class="blockquote">
+<p><strong><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/icd.1965">PCCT</a></strong> is a 15-minute task that includes a free play, a challenging puzzle task, and a clean-up task. The free play is designed to observe how parents and children interact with each other in a naturalistic, less stressful setting; the puzzle task is intentioanlly above the child’s ability to solve at the age of three, while clean-up task provides us an opportunity to peak into potential conflicts between parents and children that might lead to disciplinary practices. Overall, PCCT enables a contextual observation of parent-child interaction.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5314443/">TSST</a></strong> is a well-established stress-inducing task that focuses more on how one individual reacts to stress. The a 10-minute task contains a five-minute a five-minute speech and a five-minute math task. Just image that you are asked to give a speech in front of a group of people and then do some math problems without any feeedback from the interviewer. The stressful paradigm leads to stress-related response, such as physiological arousal and behavioral regulation.</p>
+</blockquote>
+<p>As part of physio team in the PRESH study, I am responsible for EDA data cleaning but not later-on analysis. We separate the data collection staff and data analysis staff to avoid potential bias. I do not have much experience with EDA data, so I am learning from the very beginning. My first question is: <strong>what is EDA</strong>?</p>
+<blockquote class="blockquote">
+<p><strong><a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/electrodermal-activity">Electrodermal activity (EDA)</a></strong> refers to small changes in the electrical activity of the skin, usually occurring 1–3 seconds following the onset of a stimulus. Since the late 19th century, it has been recognized as a useful measurement to estimate human emotional responses, especially under stressful situations. Historically, it has had many past names, such as sympathetic skin response (SSR) or skin conductance level (SCL). The term EDA is now used to refer to the entire electrodermal phenomenon, including both tonic and phasic components.</p>
+</blockquote>
+<p>My training began in the early June of 2023. I was given a brief introduction of EDA and the data collection process and then taught how to use the software to clean the EDA data. Physio data are not always immediately usable and require cleaning based on raw data. The complexity of cleaning process depends on the type of data, varying dramatically from one to another. For example, EDA data are impacted by many artifacts, while heart rate data are relatively less demanding and less time-consuming.</p>
+<p>Here is the overall workflow of EDA data cleaning:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/EDA process.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">EDA data cleaning workflow</figcaption>
+</figure>
+</div>
+<p>We followed guidelines provided by out technique support <a href="https://support.mindwaretech.com/manuals/software/eda/3-2/">MindWare</a>. But the guidelines are not always clear and easy to follow. I will share my experience and practice in the following sections. A typical EDA cleaning process of one file (one parent and one child) takes me about 40 to 60 minutes. For messy files that require more attention, it can take up to 80 minutes. The cleaning process is time-consuming because we need to go through the entire file and check for artifacts. Once a file is editted, we update the result with the group and decide whether a doubling-edit is needed. EDA data are sensitive to artifacts, so we need to be careful with the cleaning process. We are aware of the potential bias introduced by the cleaning process, so we are trying to minimize the impact of cleaning process on the final result. Thus, we are trying to be as objective as possible by assigning the same raw data to different group memeber and compare the results.</p>
+<p>I editted more than 30 files for the last few months, and am still learning and improving my skills. I will demonstrate my effort in quality control and issues we encountered during data cleaning in the following posts.</p>
+
+
+
+ ]]></description>
+  <category>Academe</category>
+  <category>Electrodermal Activity</category>
+  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/My Practice of Electrodermal Activity Data.html</guid>
+  <pubDate>Fri, 29 Dec 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/EDA electrodes.png" medium="image" type="image/png" height="149" width="144"/>
+</item>
+</channel>
+</rss>

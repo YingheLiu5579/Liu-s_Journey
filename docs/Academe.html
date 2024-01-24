@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Academe</title>
+<title>Liu’s Journey - Academe</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,6 +78,11 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Liu’s Journey</span>
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -85,34 +90,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./About.html" rel="" target="">
- <span class="menu-text">Liu’s Journey</span></a>
+    <a class="nav-link" href="./Lifestory.html" rel="" target="">
+ <span class="menu-text">Lifestory</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-me" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">About me</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-me">    
-        <li>
-    <a class="dropdown-item" href="./Lifestory.html" rel="" target="">
- <span class="dropdown-text">Lifestory</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./Academe.html" rel="" target="">
- <span class="dropdown-text">Academe</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./CV.html" rel="" target="">
- <span class="dropdown-text">CV</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Blog</span></a>
+    <a class="nav-link active" href="./Academe.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Academe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./CV.html" rel="" target="">
+ <span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./About.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://discordapp.com/users/1143984722620448839" rel="" target=""><i class="bi bi-discord" role="img">
 </i> 
@@ -125,6 +119,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="mailto:yingheliu@outlook.com" rel="" target=""><i class="bi bi-envelope" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./index.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -358,7 +357,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/yingheliu5579\.github\.io\/Liu-s_Journey\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
