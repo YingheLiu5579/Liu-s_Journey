@@ -6,12 +6,14 @@ website:
   description: "Yinghe Liu's personal website and blog."
   title: "Liu's Journey"
   navbar:
+    collapse-below: lg
     left:
     - Lifestory.qmd
     - Academe.qmd
     - CV.qmd
     right:
     - About.qmd
+    tools:
     - icon: discord
       href: https://discordapp.com/users/1143984722620448839
     - icon: github
@@ -42,6 +44,10 @@ format:
     anchor-sections: true
     link-external-icon: false
     link-external-newwindow: true
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
 
 editor: visual
 comments:
