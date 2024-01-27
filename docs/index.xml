@@ -116,7 +116,8 @@ Note
 <p>The slides are from a final semester project, so it is intentianally brief for time sake. For more detailed information about how I learned about EDA and some effort I’ve made to improve reproducibility, refer to some other posts.</p>
 </div>
 </div>
-<p><iframe src="EDA_Reproducibility_brief_notes.pdf" width="100%" height="500px" style="border:none;"></iframe></p>
+<iframe src="EDA_Reproducibility_brief_notes.pdf" width="100%" height="500px" style="border:none;">
+</iframe>
 <p><strong>Slide 1 &amp; 2: Topic Intro/What is EDA</strong></p>
 <p>Electrodermal activity (EDA) refers to small changes in the electrical activity of the skin, usually occurring 1–3 seconds following the onset of a stimulus <sup>1</sup>. Since the late 19th century, it has been recognized as a useful measurement to estimate human emotional responses, especially under stressful situations. Historically, it has had many past names, such as sympathetic skin response (SSR) or skin conductance level (SCL). <sup>2</sup> They may not all follow the same measurement paradigm, but all conceptualize targeting sweat secretion.</p>
 <p><strong>Slide 3: Mechanisms of EDA</strong></p>
@@ -180,6 +181,7 @@ Note
   <category>Electrodermal Activity</category>
   <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/Adressing reproducibility of EDA.html</guid>
   <pubDate>Mon, 08 Jan 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/Respiration Rate.png" medium="image" type="image/png" height="41" width="144"/>
 </item>
 <item>
   <title>Prospects of 2024</title>
@@ -340,8 +342,11 @@ Warning
 <p>I have added the RSS function, you may subscribe the blog by clicking the RSS icon on the right corner. I also noticed that some web browser <strong>do not</strong> have a default render, such as Firefox. Please try other browsers, or simply copy the following link and manually set up in your RSS reader:<br>
 <a href="https://yingheliu5579.github.io/Liu-s_Journey/"><code>https://yingheliu5579.github.io/Liu-s_Journey/</code></a></p>
 <ol start="4" type="1">
-<li><p>Google Analytics [Unsolved]</p></li>
-<li><p>Git push [Solved]</p></li>
+<li>Google Analytics [Solved]</li>
+</ol>
+<p>Added on Jan 26, 2024.</p>
+<ol start="4" type="1">
+<li>Git push [Solved]</li>
 </ol>
 <p>I met a problem when I tried to push my website to Github. I got the following error message:</p>
 <blockquote class="blockquote">

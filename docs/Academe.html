@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,6 +61,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-EKVMX1KG8P"></script>
 
 <script type="text/javascript">
@@ -77,10 +108,13 @@ gtag('config', 'G-EKVMX1KG8P', { 'anonymize_ip': true});
 </script>
 <script async="" src="https://hypothes.is/embed.js"></script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Liu’s Journey - Academe">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/Alpha GO.jpg">
 <meta property="og:site-name" content="Liu's Journey">
 <meta property="og:locale" content="en_US">
 </head>
@@ -170,10 +204,94 @@ gtag('config', 'G-EKVMX1KG8P', { 'anonymize_ip': true});
 <p>I was fortunate to have the opportunity to explore the academic world during the summer break of my junior year. I first joined the <a href="https://csc.la.psu.edu/research/funded-research-projects/parent-regulation-engagement-stress-and-health-presh/">PRESH project</a> led by Professor Lunkenheimer at Penn State. <a href="https://pcd.la.psu.edu/meet-the-team/">The research group</a> focused on how parents and children interact and whether this parent-child relationship is influenced by the parents’ own experiences. A classic scenario was teaching children to manage their behavior, and the research group set up a simulated daily interaction laboratory setting for this purpose. My role in this project was to collect Electrodermal Activity (EDA) data, and I have written several blog posts analyzing the challenges we faced regarding EDA data.</p>
 <p>I also joined <a href="https://gilmore-lab.github.io">another research group</a> at Penn State, led by Professor Gilmore. His research focused on two major areas: the early developmental curve of human vision and the issue of replicability. One significant reason I joined this group was my realization of the importance of data collection in psychological research and the challenges encountered in practice, such as EDA. My task was to create a handbook for a data-sharing platform to make it easier for people to share data. This information platform, dedicated to developmental psychology, is called <a href="https://nyu.databrary.org">Databrary</a>.</p>
 <p>At the same time, I attempted to design research from the perspective of a data analyst to provide more evidence about the challenges of EDA replicability, but progress has been slow. My current goal is to finalize the proposal by the end of January and seek further guidance.</p>
+<hr>
+<p><strong>Check these posts to know about my academic passion!</strong></p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Academe,The Game of Go" data-listing-date-sort="1704085200000" data-listing-file-modified-sort="1704303415087" data-listing-date-modified-sort="1704085200000" data-listing-reading-time-sort="8">
+<a href="./posts/Academe/The Game of Go.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/Academe/Alpha GO.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Game of Go
+</h5>
+<div class="card-text listing-description">
+Thoughts on the game of Go from a ten-year player.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Yinghe Liu
+</div>
+<div class="listing-date">
+Jan 1, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Academe,Electrodermal Activity" data-listing-date-sort="1703826000000" data-listing-file-modified-sort="1704303548526" data-listing-date-modified-sort="1703912400000" data-listing-reading-time-sort="4">
+<a href="./posts/Academe/My Practice of Electrodermal Activity Data.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/Academe/EDA electrodes.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Practice of Electrodermal Activity Data (EDA).
+</h5>
+<div class="card-text listing-description">
+Share my practice of electrodermal activity data.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Yinghe Liu
+</div>
+<div class="listing-date">
+Dec 29, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Academe,Electrodermal Activity" data-listing-date-sort="1704690000000" data-listing-file-modified-sort="1706320877294" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<a href="./posts/Academe/Adressing reproducibility of EDA.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/Academe/Respiration Rate.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Addressing Reproducibility of Electrodermal Activity Data (EDA).
+</h5>
+<div class="card-text listing-description">
+Discuss to what impacts consistent results of EDA
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Yinghe Liu
+</div>
+<div class="listing-date">
+Jan 8, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

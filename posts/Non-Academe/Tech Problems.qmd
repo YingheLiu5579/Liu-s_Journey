@@ -38,9 +38,11 @@ Jan 12 2024 Update: I realized I enabled the comment function on my website by d
 I have added the RSS function, you may subscribe the blog by clicking the RSS icon on the right corner. I also noticed that some web browser **do not** have a default render, such as Firefox. Please try other browsers, or simply copy the following link and manually set up in your RSS reader:\
 [`https://yingheliu5579.github.io/Liu-s_Journey/`](https://yingheliu5579.github.io/Liu-s_Journey/)
 
-4.  Google Analytics \[Unsolved\]
+4.  Google Analytics \[Solved\]
 
-5.  Git push \[Solved\]
+Added on Jan 26, 2024.
+
+4.  Git push \[Solved\]
 
 I met a problem when I tried to push my website to Github. I got the following error message:
 

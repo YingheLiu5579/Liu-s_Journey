@@ -12,5 +12,13 @@
       "/posts/Non-Academe/Say_Hello.html",
       "/posts/Academe/My Practice of Electrodermal Activity Data.html"
     ]
+  },
+  {
+    "listing": "/Academe.html",
+    "items": [
+      "/posts/Academe/The Game of Go.html",
+      "/posts/Academe/My Practice of Electrodermal Activity Data.html",
+      "/posts/Academe/Adressing reproducibility of EDA.html"
+    ]
   }
 ]
