@@ -335,7 +335,11 @@ Warning
 <p>I need to figure out a way to add comments on my website.</p>
 <p>Jan 12 2024 Update: I realized I enabled the comment function on my website by default. It is achieved by hypothesis.io. Meanwhile, a new problem occurred. As the comment made, the text on the webpage will be highlighted. I need to figure out a way to disable the highlight function to keep reading experience intact. I am also not certain whether the comments will be kept if I update the website. I will keep an eye on it.</p>
 <ol start="4" type="1">
-<li><p>RSS Feed [Unsolved]</p></li>
+<li>RSS Feed [Solved]</li>
+</ol>
+<p>I have added the RSS function, you may subscribe the blog by clicking the RSS icon on the right corner. I also noticed that some web browser <strong>do not</strong> have a default render, such as Firefox. Please try other browsers, or simply copy the following link and manually set up in your RSS reader:<br>
+<a href="https://yingheliu5579.github.io/Liu-s_Journey/"><code>https://yingheliu5579.github.io/Liu-s_Journey/</code></a></p>
+<ol start="4" type="1">
 <li><p>Google Analytics [Unsolved]</p></li>
 <li><p>Git push [Solved]</p></li>
 </ol>

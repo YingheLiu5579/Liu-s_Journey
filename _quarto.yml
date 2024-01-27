@@ -24,7 +24,10 @@ website:
       href: index.xml
   back-to-top-navigation: false
   site-url: https://yingheliu5579.github.io/Liu-s_Journey/
-  
+  open-graph: 
+    locale: en_US
+  google-analytics: G-EKVMX1KG8P
+    
 format:
   html:
     theme: flatly
@@ -57,3 +60,4 @@ comments:
 
 execute:
   freeze: auto
+  
