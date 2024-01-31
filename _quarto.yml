@@ -61,3 +61,4 @@ comments:
 execute:
   freeze: auto
   
+lightbox: true

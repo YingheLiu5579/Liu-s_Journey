@@ -2,7 +2,7 @@
 title: "Tech Problems"
 author: "Yinghe Liu"
 date: "2023-12-29"
-date-modified: "2023-12-29"
+date-modified: "2024-1-26"
 categories: [Non-Academe, Announcement]
 description: "As a beginner, I will record some tech problems I met and how I solved them."
 ---
