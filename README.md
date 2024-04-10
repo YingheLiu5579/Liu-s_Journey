@@ -4,8 +4,8 @@ A simple website for blog purposes only. You may visit it at https://yingheliu55
 
 **Basic Info:**
 
-Written in quarto, a platform to integrate R, python, HTML, etc.; 
+Written in quarto, a platform to integrate R, python, HTML, etc.;
 
 First launched at the beginning of 2024;
 
-Static HTML hosted by GitHub. 
+Static HTML hosted by GitHub.

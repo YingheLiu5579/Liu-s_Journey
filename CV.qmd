@@ -1,7 +1,9 @@
 ---
 title: "CV"
-date-modified: "2024-1-17"
+date-modified: "2024-4-10"
 ---
+
+{{< downloadthis addons/CV_with_reference_Liu_SP24.pdf dname="CV_Liu" label="Download CV" >}}
 
 # Education
 
@@ -11,7 +13,7 @@ Pennsylvania State University,University Park; May 2024
 
 Major: Psychology, Neuroscience option
 
-Minor:Human Development and Family Study (HDFS)
+Minor: Human Development and Family Study (HDFS)
 
 Overall GPA: 3.81/4.00; Major GPA: 3.85/4.00
 
@@ -27,7 +29,7 @@ Brain and Behavioral Dynamics Lab; State College, PA August 2023 to May 2024
 
 -   Create a guidebook for Databrary by using R language.
 
--   Supervisor: Rick Gilmore, PhD; Andrea Seisler, MS.
+-  * Supervisor: Rick Gilmore, PhD; Andrea Seisler, MS.*
 
 **Undergraduate Research Assistance**
 
@@ -35,9 +37,11 @@ Parent-Child Dynamic Lab; State College, PA May 2023 to May 2024
 
 -   Understand how parents regulate themselves while disciplining their children.
 
--   Collect and ensure the quality of Electrodermal Activity Data.
+-   Assess physiological reaction during the Parent-Child Dynamic Test (PCCT) and the Trier Social Stress Test (TSST). 
 
--   Supervisor: Erika Lunkenheimer, PhD.
+-   Collect and ensure the quality of Electrodermal Activity Data (Skin Conductance).
+
+-   *Supervisor: Erika Lunkenheimer, PhD.*
 
 # Other Experience
 
@@ -49,7 +53,7 @@ Pennsylvania State University; State College, PA August 2023 to May 2024
 
 -   Coordinate grading and develop quizzes, exams, and homework.
 
--   Supervisor: Rodrigo Cardenas, PhD.
+-   *Supervisor: Rodrigo Cardenas, PhD.*
 
 **Learning Assistance**
 
@@ -63,6 +67,7 @@ Zhengzhou Cornerstone High School; Zhengzhou, China Nov 2019 to Jan 2020
 
 **Detailed course list:**
 
-<iframe src="23FALL_Courselist.pdf" width="100%" height="500px" style="border:none;">
+<iframe src="23FALL_Courselist.pdf" width="100%" height="900px" style="border:none;">
 
 </iframe>
+

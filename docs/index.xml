@@ -201,7 +201,7 @@ Note
   <category>Electrodermal Activity</category>
   <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/Adressing reproducibility of EDA.html</guid>
   <pubDate>Mon, 08 Jan 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/Respiration Rate.png" medium="image" type="image/png" height="41" width="144"/>
+  <media:content url="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/Respiration Rate.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Prospects of 2024</title>
@@ -235,19 +235,6 @@ Note
 
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The original text of is blog is written in Chinese so many terms may not be appropiately described without cultural context. The translation is done by ChatGPT.</p>
-</div>
-</div>
 <p>My exposure to Go began as a childhood interest. Many Chinese parents encourage their children to learn Go more as a targeted investment rather than simply nurturing an interest. My mother believed that learning Go was beneficial for a child’s intellectual development. Thus, the pursuit of learning Go seemed more about idolizing intelligence rather than seeking enjoyment. I will attempt to discuss Go’s key cognitive abilities from an empirical research perspective in this article.</p>
 <section id="what-is-go" class="level1">
 <h1>What is Go?</h1>
@@ -258,7 +245,40 @@ Note
 <figcaption class="figure-caption">Go Board</figcaption>
 </figure>
 </div>
+<section id="basic" class="level2">
+<h2 class="anchored" data-anchor-id="basic">Basic</h2>
+<p><strong>When a stone is surrounded entriely by the opponents, it would be removed from the board. </strong></p>
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic1_GO.png" class="img-fluid" alt="A black stone amost being surrounded"> It takes four moves to fully surround a stone. If dot A was possessed by the white stone, the black stone would be removed.</p>
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic2_GO.png" class="img-fluid" alt="The black stone removed after surrounded by the opponents stone"> The surrounded dot (Dot B) mustn’t be refilled with a new balck stone, and thus considered to be possessed by the white.</p>
+<p>However,<strong>players take turn to make moves. </strong></p>
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic3_GO.png" class="img-fluid" alt="Players may choose different locations for next move"> Three moves have been made by each player. Move 1 and Move 3 by the black, and Move 2 by the white; Move 4 to be determined by white.</p>
+<p>The player may choose to make moves on any available dots on the board that has not yet been possessed. This brings tons of available options for each move. Take a 19 X 19 size board as an example, there would be a total of <strong>19 * 19 = 361</strong> available dots on the board. The first move made by balck can be any of these 361 dots. The next step by white would be from the 360 available dots.</p>
+<p>The game seemed to be finite with maximum of the following chance:</p>
+<blockquote class="blockquote">
+<p>361 * (361 - 1) * (361 - 2) * … * 1</p>
+</blockquote>
+<p>Yet the game get complexed with the **refill* rule.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The following part may involve some basic calculation and topoligical perception.</p>
+</div>
+</div>
 <p>Of course, there are many variations to Go’s rules. For example, the board size can be 9x9. In certain contexts, minor rules of the game might also vary. A well-known example is the endgame rule in Go. In Japan and Korea, the endgame involves “counting points,” while in Chinese rules, it’s about “counting stones” (essentially, both are methods of quantifying territory, but implemented differently). These minor rules don’t touch upon the essence of Go, so I will not discuss them here.</p>
+</section>
+<section id="end-rule" class="level2">
+<h2 class="anchored" data-anchor-id="end-rule">End Rule</h2>
+<p>Ending rule of Go is simple: the players with more terriotory wins! Take a 19 X 19 size board as an example, there would be a total of <strong>19 * 19 = 361</strong> available dots on the board. Player with more than half territory about 180.5 dots would be considered as the winner. However, considering players with black stone (pre-determined rule) usually take advantage in ability to priorities strategies at early stages of game, black stone players must compensate the opponent with 6 - 8 dots depending on the specific rules.</p>
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/EndGame_GO.png" class="img-fluid" alt="End of Game"> Screenshot of a random Go game on <a href="https://online-go.com/game/63274480">OGS</a>. The game comes the end with 235 total moves. Black wins with more territory.</p>
+<p>It often takes more than 100 moves to end a game, each of which move can lead the game into a unique direction.</p>
+</section>
 </section>
 <section id="the-competitive-nature-of-go" class="level1">
 <h1>The Competitive Nature of Go</h1>
@@ -283,13 +303,16 @@ Note
 </blockquote>
 <p>However, after a detailed examination, I found that one of the cited articles is difficult to trace (Mechner, 1998)<sup>2</sup>, and the other is merely a news report (Johnson, 1997)<sup>3</sup>, suggesting that the qualities mentioned in the article as advantageous in Go might be the authors’ inductive summaries based on past experience. The tests used in the study were divided into two categories: adaptive tests involving Go and classic test tasks not involving Go, as seen in Table 2 of the article.</p>
 <p>The results showed that all cognitive tests not involving Go did not reflect real competitive levels, while tests containing professional content could better predict real competitive levels. When I learned Go, we had some consensus on successful professional players, such as “strong calculation ability,” which was also the main target of the <strong>Go-related adaptive test sub-items</strong> in Masunaga &amp; Horn (2001). The results supported the <strong>significant role of executive function in competitive success in Go</strong>. At the same time, it’s especially worth noting that there was no significant difference in <strong>executive function in non-Go test items</strong> among Go enthusiasts of different levels. This indicates that the accumulation of professional content in Go is also an extremely important trait for success, especially for young enthusiasts. <strong>The accumulation of professional knowledge allows players to maintain a competitive state even after a decline in executive function.</strong> Similar conclusions have been reflected in a very similar field, chess. This game, like Go, has high professionalism, complexity, and pure intellectual competition, but has a larger sample size compared to Go (Boury-Brisset et al., 2016)<sup>4</sup>.</p>
-<p>Here we reach preliminary conclusions:</p>
+<p>Here we reach preliminary conclusions about the game of GO:</p>
 <ul>
 <li><p>Empirical studies based on Go are mostly focused on algorithms, rather than cognition and behavior.</p></li>
 <li><p>People good at Go do not show significant advantages in general executive function tests.</p></li>
 <li><p>Go contains a large amount of professional content, and the accumulation of this professional content is an important trait for becoming a strong Go player.</p></li>
 </ul>
-<p>It’s particularly important to emphasize that the key conditions required for empirical research are imperfect in the field of Go, so some traits that are difficult to quantify may be overlooked. Other factors I can think of include: age when starting to play Go, training duration, economic status. Popular analyses of the personality traits of top players also lack representativeness. I will gradually refine the related research I read and try to compile them into a separate blog.</p>
+<p>It’s particularly important to emphasize that the key conditions required for empirical research are imperfect in the field of Go, so some traits that are difficult to quantify may be overlooked. Other factors I can think of include: age when starting to play Go, training duration, economic status. What about other board games?</p>
+</section>
+<section id="chess" class="level1">
+<h1>Chess</h1>
 
 
 </section>
@@ -449,7 +472,7 @@ Warning
   <category>Electrodermal Activity</category>
   <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/My Practice of Electrodermal Activity Data.html</guid>
   <pubDate>Fri, 29 Dec 2023 05:00:00 GMT</pubDate>
-  <media:content url="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/EDA electrodes.png" medium="image" type="image/png" height="149" width="144"/>
+  <media:content url="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/EDA electrodes.png" medium="image" type="image/png"/>
 </item>
 </channel>
 </rss>

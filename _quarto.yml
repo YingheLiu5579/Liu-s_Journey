@@ -20,6 +20,8 @@ website:
       href: https://github.com/YingheLiu5579
     - icon: envelope
       href: mailto:yingheliu@outlook.com
+    - icon: linkedin
+      href: https://www.linkedin.com/in/yinghe-liu-7433622ba/
     - icon: rss
       href: index.xml
   back-to-top-navigation: false
@@ -27,6 +29,7 @@ website:
   open-graph: 
     locale: en_US
   google-analytics: G-EKVMX1KG8P
+  twitter-card: true
     
 format:
   html:

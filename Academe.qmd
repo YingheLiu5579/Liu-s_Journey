@@ -22,6 +22,6 @@ I also joined [another research group](https://gilmore-lab.github.io) at Penn St
 
 At the same time, I attempted to design research from the perspective of a data analyst to provide more evidence about the challenges of EDA replicability, but progress has been slow. My current goal is to finalize the proposal by the end of January and seek further guidance.
 
----
+------------------------------------------------------------------------
 
 **Check these posts to know about my academic passion!**
