@@ -44,6 +44,7 @@ Yet the game get complexed with the **refill* rule.
 The following part may involve some basic calculation and topoligical perception. 
 :::
 
+UNFINISHED 
 
 
 Of course, there are many variations to Go's rules. For example, the board size can be 9x9. In certain contexts, minor rules of the game might also vary. A well-known example is the endgame rule in Go. In Japan and Korea, the endgame involves "counting points," while in Chinese rules, it's about "counting stones" (essentially, both are methods of quantifying territory, but implemented differently). These minor rules don't touch upon the essence of Go, so I will not discuss them here.
