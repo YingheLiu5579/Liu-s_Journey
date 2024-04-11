@@ -1,66 +1,20 @@
 ---
-title: "The Game of Go"
+title: "The Game of Go: More than a Game"
 author: "Yinghe Liu"
 date: "2024-1-1"
-date-modified: "2024-1-1"
+date-modified: "2024-4-11"
 categories: [Academe, The Game of Go] 
 image: Alpha GO.jpg
-description: "Thoughts on the game of Go from a ten-year player, and comparisons between Go and Chess."
+description: "Go means more than just a game, but a key to approach human intelligence"
 lang: en
 ---
 
-My exposure to Go began as a childhood interest. Many Chinese parents encourage their children to learn Go more as a targeted investment rather than simply nurturing an interest. My mother believed that learning Go was beneficial for a child's intellectual development. Thus, the pursuit of learning Go seemed more about idolizing intelligence rather than seeking enjoyment. I will attempt to discuss Go's key cognitive abilities from an empirical research perspective in this article.
-
-# What is Go?
-
-Before delving into a detailed discussion, it's necessary to define our subject: Go. Go is a board game where two players alternately place stones on a board. Once placed, the stones cannot be moved. When a player's stones are completely surrounded by the opponent's, they are removed from the board. The game ends when a certain number of stones are removed, and the player with more stones remaining on the board wins. A standard Go board is a 19x19 grid, and the stones are black and white, placed at the intersections. The Go board looks like the following image:
-
-![Go Board](GO%20board.jpg)
-
-## Basic
-
-**When a stone is surrounded entriely by the opponents, it would be removed from the board. **
-
-![A black stone amost being surrounded](img/Basic1_GO.png)
-It takes four moves to fully surround a stone. If dot A was possessed by the white stone, the black stone would be removed.
-
-![The black stone removed after surrounded by the opponents stone](img/Basic2_GO.png)
-The surrounded dot (Dot B) mustn't be refilled with a new balck stone, and thus considered to be possessed by the white. 
-
-However,**players take turn to make moves. **
-
-![Players may choose different locations for next move](img/Basic3_GO.png)
-Three moves have been made by each player. Move 1 and Move 3 by the black, and Move 2 by the white; Move 4 to be determined by white.
-
-The player may choose to make moves on any available dots on the board that has not yet been possessed. This brings tons of available options for each move. Take a 19 X 19 size board as an example, there would be a total of **19 * 19 = 361** available dots on the board. The first move made by balck can be any of these 361 dots. The next step by white would be from the 360 available dots. 
-
-The game seemed to be finite with maximum of the following chance:
-
-> 361 * (361 - 1) * (361 - 2) * ... * 1
-
-Yet the game get complexed with the **refill* rule. 
-
-:::{.callout-warning}
-The following part may involve some basic calculation and topoligical perception. 
-:::
-
-UNFINISHED 
-
-
-Of course, there are many variations to Go's rules. For example, the board size can be 9x9. In certain contexts, minor rules of the game might also vary. A well-known example is the endgame rule in Go. In Japan and Korea, the endgame involves "counting points," while in Chinese rules, it's about "counting stones" (essentially, both are methods of quantifying territory, but implemented differently). These minor rules don't touch upon the essence of Go, so I will not discuss them here.
-
-## End Rule
-
-Ending rule of Go is simple: the players with more terriotory wins! Take a 19 X 19 size board as an example, there would be a total of **19 * 19 = 361** available dots on the board. Player with more than half territory about 180.5 dots would be considered as the winner. However, considering players with black stone (pre-determined rule) usually take advantage in ability to priorities strategies at early stages of game, black stone players must compensate the opponent with 6 - 8 dots depending on the specific rules.
-
-![End of Game](img/EndGame_GO.png)
-Screenshot of a random Go game on [OGS](https://online-go.com/game/63274480). The game comes the end with 235 total moves. Black wins with more territory. 
-
-It often takes more than 100 moves to end a game, each of which move can lead the game into a unique direction. 
 
 # The Competitive Nature of Go
 
-To me, the essence of Go, like other board games such as chess, lies in decision-making under ambiguous conditions. This decision-making is purely intellectual, and the outcomes are uncertain. In such scenarios, the competitiveness of Go emphasizes understanding and judging the situation on the board. A small change in a local situation can affect the entire course of the game. This impact is inexhaustible, as the old saying goes, "no two games are the same." This makes finding the optimal model difficult, as it requires a massive amount of computation for exhaustive methods, keeping Go interesting even without time constraints. Therefore, people have been looking for more efficient ways to solve this problem. In the past, this optimization was referred to as "chess theory," but now there's a more efficient alternative: computational intelligence/artificial intelligence.
+To me, the essence of Go, like other board games such as chess, lies in decision-making under ambiguous conditions. This decision-making is purely intellectual, and the outcomes are uncertain. In such scenarios, the competitiveness of Go emphasizes understanding and judging the situation on the board. A small change in a local situation can affect the entire course of the game. This impact is inexhaustible, as the old saying goes, "no two games are the same." This makes finding the optimal model difficult, as it requires a massive amount of computation for exhaustive methods, keeping Go interesting even without time constraints. Therefore, people have been looking for more efficient ways to solve this problem. In the past, this optimization was referred to as "chess theory," but now there's a more efficient alternative: computational intelligence/artificial intelligence.The famous Alpha GO by DeepMind brings its solution:
+
+> Silver, D., Huang, A., Maddison, C. J., Guez, A., Sifre, L., Van Den Driessche, G., ... & Hassabis, D. (2016). Mastering the game of Go with deep neural networks and tree search. nature, 529(7587), 484-489.
 
 More efficient methods of fitting optimal models have changed how Go enthusiasts acquire professional knowledge. In the past, enthusiasts learned by studying the game records of top players or through verbal instruction from more experienced players. Now, people can simply open an information terminal to simulate winning probability curves and learn different strategies from the fluctuations in winning probabilities. Powerful and objective algorithms undoubtedly weaken the discourse power of high-level players in seeking the best Go solutions and also provide low-level enthusiasts with a cheaper, more reliable way to improve their competitive skills. Yet, deep learning algorithms based on neural network simulation models haven't completely solved the problem of the optimal model. They are essentially a black box, which to some extent preserves the competitiveness of Go. Within a limited time frame, human players can still gain an advantage through their understanding of the game.
 
@@ -111,3 +65,4 @@ It's particularly important to emphasize that the key conditions required for em
 # Chess
 
 
+TBD

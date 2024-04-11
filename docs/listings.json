@@ -2,13 +2,13 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/Non-Academe/Annoucement_2024_1_31.html",
+      "/posts/Academe/The Game of Go: Basic.html",
       "/posts/Non-Academe/AI.html",
       "/posts/Non-Academe/Recent Games Review.html",
       "/posts/Non-Academe/Launch Annoucement.html",
       "/posts/Academe/Adressing reproducibility of EDA.html",
       "/posts/Non-Academe/Prospects of 2024.html",
-      "/posts/Academe/The Game of Go.html",
+      "/posts/Academe/The Game of Go: More than a Game.html",
       "/posts/Non-Academe/Tech Problems.html",
       "/posts/Non-Academe/Say_Hello.html",
       "/posts/Academe/My Practice of Electrodermal Activity Data.html"
@@ -17,7 +17,8 @@
   {
     "listing": "/Academe.html",
     "items": [
-      "/posts/Academe/The Game of Go.html",
+      "/posts/Academe/The Game of Go: Basic.html",
+      "/posts/Academe/The Game of Go: More than a Game.html",
       "/posts/Academe/My Practice of Electrodermal Activity Data.html",
       "/posts/Academe/Adressing reproducibility of EDA.html"
     ]

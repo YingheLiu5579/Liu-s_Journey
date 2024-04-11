@@ -10,26 +10,143 @@
 <atom:link href="https://yingheliu5579.github.io/Liu-s_Journey/index.xml" rel="self" type="application/rss+xml"/>
 <description>Yinghe Liu&#39;s personal website and blog.</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Wed, 31 Jan 2024 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 11 Apr 2024 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>Next Step</title>
+  <title>The Game of Go: Basic Rules</title>
   <dc:creator>Yinghe Liu</dc:creator>
-  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Annoucement_2024_1_31.html</link>
+  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/The Game of Go: Basic.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>My update frequency would be lower than before, because I am currently focusing on coursework and job applications. My next step for this blog website would be finishing data cleaning and visualization of EDA data and then publishing the file-porting-system withn the following month. The originated goal of many-analyst proposal would be on pending until I finished the file-porting-system, same case as of reference list for the Go blog.</p>
-<p>Next post would be: <em>EDA data Visualization</em>, expected date: <em>2024-2-15</em>.</p>
+<p>My exposure to Go began as a childhood interest. Many Chinese parents encourage their children to learn Go more as a targeted investment rather than simply nurturing an interest. My mother believed that learning Go was beneficial for a child’s intellectual development. Thus, the pursuit of learning Go seemed more about idolizing intelligence rather than seeking enjoyment. I will attempt to discuss Go’s key cognitive abilities from an empirical research perspective in this article.</p>
+<section id="what-is-go" class="level1">
+<h1>What is Go?</h1>
+<p>Before delving into a detailed discussion, it’s necessary to define our subject: Go. Go is a board game where two players alternately place stones on a board. Once placed, the stones cannot be moved. When a player’s stones are completely surrounded by the opponent’s, they are removed from the board. The game ends when a certain number of stones are removed, and the player with more stones remaining on the board wins. A standard Go board is a 19x19 grid, and the stones are black and white, placed at the dots (intersections of lines). The Go board looks like the following image:</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/GO board.jpg" class="img-fluid figure-img" style="width:50.0%" alt="A 19 * 19 size Go board."></p>
+<figcaption class="figure-caption">A 19 *19 grid Go Board</figcaption>
+</figure>
+</div>
+<section id="basic" class="level2">
+<h2 class="anchored" data-anchor-id="basic">Basic</h2>
+<p><strong>When a stone is surrounded entriely by the opponents, it would be removed from the board. </strong></p>
+<div id="fig-Basic1" class="quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic1_GO.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">A black stone amost being surrounded</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic2_GO.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The black stone removed after surrounded by the opponents stone</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Basic Rule of Go</figcaption><p></p>
+</figure>
+</div>
+<p>It takes four moves to fully surround a stone. If dot A was possessed by the white stone, the black stone would be removed. The surrounded dot (Dot B) mustn’t be refilled with a new balck stone, known as the “forbidden rule”.</p>
+<div id="fig-Basic2" class="quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic1.1_GO.png" class="img-fluid figure-img" width="200"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic1.2_GO.png" class="img-fluid figure-img" width="200"></p>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: Black stones are surrounded by the white stones.</figcaption><p></p>
+</figure>
+</div>
+<p>It takes respectively 6, 7steps for white stones to surround black stones in the illustration. Try to make counts of various patterns in <a href="https://online-go.com/joseki/15081">a virtual board</a>.</p>
+</section>
+<section id="total-chances" class="level2">
+<h2 class="anchored" data-anchor-id="total-chances">Total Chances</h2>
+<p><strong>players take turn to make moves. </strong></p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic3_GO.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption class="figure-caption">Players may choose different locations for next move</figcaption>
+</figure>
+</div>
+<p>Three moves have been made by each player. Move 1 and Move 3 by the black, and Move 2 by the white; Move 4 to be determined by white.</p>
+<p>The player may choose to make moves on any available dots on the board that has not yet been possessed. This brings tons of available options for each move. Take a 19 X 19 size board as an example, there would be a total of <strong>19 * 19 = 361</strong> available dots on the board. The first move made by balck can be any of these 361 dots. The next step by white would be from the 360 available dots.</p>
+<p>The game seemed to be finite with maximum of the following chance for 19 X 19 board:</p>
+<blockquote class="blockquote">
+<p>361 * (361 - 1) * (361 - 2) * … * 1</p>
+</blockquote>
+<p>or</p>
+<blockquote class="blockquote">
+<p>3^361 (About 1.74 * 10^172)</p>
+</blockquote>
+<p>Yet the game get complicated when places with previously removed stones can be refilled with new stones.</p>
+<div id="fig-Refill" class="quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic4_GO.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic5_GO.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic6_GO.png" class="img-fluid figure-img"></p>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure&nbsp;3: Stones can refill.</figcaption><p></p>
+</figure>
+</div>
+<p>Stones can be placed at dot B, because white must occupy dot 3 for the black stone to be fully surrounded.</p>
+<p>Now, what about when stones fully,conjugally surrounded each other?</p>
+<div id="fig-Refill" class="quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic7_GO.png" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic8_GO.png" class="img-fluid figure-img"></p>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure&nbsp;4: The last stone to fall wins.</figcaption><p></p>
+</figure>
+</div>
+<p>If a stone is placed at dot A, it can override the “forbidden rule” to settle the removal of the black stone at dot B. Players mustn’t unceasingly make moves in A and B, which makes a loop. Players are allowed to refill A or B <strong>1 turn after</strong> a move made at A or B. This brings much more complexity to the game. Several conventional network-like models had been developed to estimate the total chance in the game. <a href="https://www.i-programmer.info/news/112-theory/9384-number-of-legal-go-positions-finally-worked-out.html">Some</a> argued a 363 billion row square matrix for possible states, a number human individuals apparently cannot exhaust.</p>
+</section>
+<section id="end-rule" class="level2">
+<h2 class="anchored" data-anchor-id="end-rule">End Rule</h2>
+<p>Ending rule of Go is simple: the players with more terriotory wins! Take a 19 X 19 size board as an example, there would be a total of <strong>19 * 19 = 361</strong> available dots on the board. Player with more than half territory about 180.5 dots would be considered as the winner. However, considering players with black stone (pre-determined rule) usually take advantage in ability to priorities strategies at early stages of game, black stone players must compensate the opponent with 6 - 8 dots depending on the specific rules.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/EndGame_GO.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">End of Game</figcaption>
+</figure>
+</div>
+<p><em>Screenshot of a random Go game on <a href="https://online-go.com/game/63274480">OGS</a>. The game comes the end with 235 total moves. Black wins with more territory. It often takes more than 100 moves to end a game, each of which move can lead the game into a unique direction. </em></p>
+<p>Of course, there are many variations to Go’s rules. For example, the board size can be 9x9. In certain contexts, minor rules of the game might also vary. A well-known example is the endgame rule in Go. In Japan and Korea, the endgame involves “counting points,” while in Chinese rules, it’s about “counting stones” (essentially, both are methods of quantifying territory, but implemented differently). These minor rules don’t touch upon the essence of Go.</p>
+<p>TBD</p>
 
 
+</section>
+</section>
 
  ]]></description>
-  <category>Non-Academe</category>
-  <category>Announcement</category>
-  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Non-Academe/Annoucement_2024_1_31.html</guid>
-  <pubDate>Wed, 31 Jan 2024 05:00:00 GMT</pubDate>
+  <category>Academe</category>
+  <category>The Game of Go</category>
+  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/The Game of Go: Basic.html</guid>
+  <pubDate>Thu, 11 Apr 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Random Thoughts: AI</title>
@@ -227,63 +344,20 @@ Note
   <pubDate>Tue, 02 Jan 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>The Game of Go</title>
+  <title>The Game of Go: More than a Game</title>
   <dc:creator>Yinghe Liu</dc:creator>
-  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/The Game of Go.html</link>
+  <link>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/The Game of Go: More than a Game.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>My exposure to Go began as a childhood interest. Many Chinese parents encourage their children to learn Go more as a targeted investment rather than simply nurturing an interest. My mother believed that learning Go was beneficial for a child’s intellectual development. Thus, the pursuit of learning Go seemed more about idolizing intelligence rather than seeking enjoyment. I will attempt to discuss Go’s key cognitive abilities from an empirical research perspective in this article.</p>
-<section id="what-is-go" class="level1">
-<h1>What is Go?</h1>
-<p>Before delving into a detailed discussion, it’s necessary to define our subject: Go. Go is a board game where two players alternately place stones on a board. Once placed, the stones cannot be moved. When a player’s stones are completely surrounded by the opponent’s, they are removed from the board. The game ends when a certain number of stones are removed, and the player with more stones remaining on the board wins. A standard Go board is a 19x19 grid, and the stones are black and white, placed at the intersections. The Go board looks like the following image:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/GO board.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Go Board</figcaption>
-</figure>
-</div>
-<section id="basic" class="level2">
-<h2 class="anchored" data-anchor-id="basic">Basic</h2>
-<p><strong>When a stone is surrounded entriely by the opponents, it would be removed from the board. </strong></p>
-<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic1_GO.png" class="img-fluid" alt="A black stone amost being surrounded"> It takes four moves to fully surround a stone. If dot A was possessed by the white stone, the black stone would be removed.</p>
-<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic2_GO.png" class="img-fluid" alt="The black stone removed after surrounded by the opponents stone"> The surrounded dot (Dot B) mustn’t be refilled with a new balck stone, and thus considered to be possessed by the white.</p>
-<p>However,<strong>players take turn to make moves. </strong></p>
-<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/Basic3_GO.png" class="img-fluid" alt="Players may choose different locations for next move"> Three moves have been made by each player. Move 1 and Move 3 by the black, and Move 2 by the white; Move 4 to be determined by white.</p>
-<p>The player may choose to make moves on any available dots on the board that has not yet been possessed. This brings tons of available options for each move. Take a 19 X 19 size board as an example, there would be a total of <strong>19 * 19 = 361</strong> available dots on the board. The first move made by balck can be any of these 361 dots. The next step by white would be from the 360 available dots.</p>
-<p>The game seemed to be finite with maximum of the following chance:</p>
-<blockquote class="blockquote">
-<p>361 * (361 - 1) * (361 - 2) * … * 1</p>
-</blockquote>
-<p>Yet the game get complexed with the **refill* rule.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The following part may involve some basic calculation and topoligical perception.</p>
-</div>
-</div>
-<p>UNFINISHED</p>
-<p>Of course, there are many variations to Go’s rules. For example, the board size can be 9x9. In certain contexts, minor rules of the game might also vary. A well-known example is the endgame rule in Go. In Japan and Korea, the endgame involves “counting points,” while in Chinese rules, it’s about “counting stones” (essentially, both are methods of quantifying territory, but implemented differently). These minor rules don’t touch upon the essence of Go, so I will not discuss them here.</p>
-</section>
-<section id="end-rule" class="level2">
-<h2 class="anchored" data-anchor-id="end-rule">End Rule</h2>
-<p>Ending rule of Go is simple: the players with more terriotory wins! Take a 19 X 19 size board as an example, there would be a total of <strong>19 * 19 = 361</strong> available dots on the board. Player with more than half territory about 180.5 dots would be considered as the winner. However, considering players with black stone (pre-determined rule) usually take advantage in ability to priorities strategies at early stages of game, black stone players must compensate the opponent with 6 - 8 dots depending on the specific rules.</p>
-<p><img src="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/EndGame_GO.png" class="img-fluid" alt="End of Game"> Screenshot of a random Go game on <a href="https://online-go.com/game/63274480">OGS</a>. The game comes the end with 235 total moves. Black wins with more territory.</p>
-<p>It often takes more than 100 moves to end a game, each of which move can lead the game into a unique direction.</p>
-</section>
-</section>
 <section id="the-competitive-nature-of-go" class="level1">
 <h1>The Competitive Nature of Go</h1>
-<p>To me, the essence of Go, like other board games such as chess, lies in decision-making under ambiguous conditions. This decision-making is purely intellectual, and the outcomes are uncertain. In such scenarios, the competitiveness of Go emphasizes understanding and judging the situation on the board. A small change in a local situation can affect the entire course of the game. This impact is inexhaustible, as the old saying goes, “no two games are the same.” This makes finding the optimal model difficult, as it requires a massive amount of computation for exhaustive methods, keeping Go interesting even without time constraints. Therefore, people have been looking for more efficient ways to solve this problem. In the past, this optimization was referred to as “chess theory,” but now there’s a more efficient alternative: computational intelligence/artificial intelligence.</p>
+<p>To me, the essence of Go, like other board games such as chess, lies in decision-making under ambiguous conditions. This decision-making is purely intellectual, and the outcomes are uncertain. In such scenarios, the competitiveness of Go emphasizes understanding and judging the situation on the board. A small change in a local situation can affect the entire course of the game. This impact is inexhaustible, as the old saying goes, “no two games are the same.” This makes finding the optimal model difficult, as it requires a massive amount of computation for exhaustive methods, keeping Go interesting even without time constraints. Therefore, people have been looking for more efficient ways to solve this problem. In the past, this optimization was referred to as “chess theory,” but now there’s a more efficient alternative: computational intelligence/artificial intelligence.The famous Alpha GO by DeepMind brings its solution:</p>
+<blockquote class="blockquote">
+<p>Silver, D., Huang, A., Maddison, C. J., Guez, A., Sifre, L., Van Den Driessche, G., … &amp; Hassabis, D. (2016). Mastering the game of Go with deep neural networks and tree search. nature, 529(7587), 484-489.</p>
+</blockquote>
 <p>More efficient methods of fitting optimal models have changed how Go enthusiasts acquire professional knowledge. In the past, enthusiasts learned by studying the game records of top players or through verbal instruction from more experienced players. Now, people can simply open an information terminal to simulate winning probability curves and learn different strategies from the fluctuations in winning probabilities. Powerful and objective algorithms undoubtedly weaken the discourse power of high-level players in seeking the best Go solutions and also provide low-level enthusiasts with a cheaper, more reliable way to improve their competitive skills. Yet, deep learning algorithms based on neural network simulation models haven’t completely solved the problem of the optimal model. They are essentially a black box, which to some extent preserves the competitiveness of Go. Within a limited time frame, human players can still gain an advantage through their understanding of the game.</p>
 <p>In fact, time constraints in Go have evolved over the past decades. Multi-day formats were very popular in Japan in the last century, and now only a few major tournaments retain this format. I once wrote an assignment for a writing class, pretending to be an advisor who supports this view. In my view, reducing time constraints in competitive play effectively maintains the competitiveness of Go. In this scenario, the competitiveness of Go is no longer just about understanding the game, but about balancing understanding of the game with effective decision-making within a limited time.</p>
 <iframe src="Reform of Time rule.pdf" width="100%" height="500px" style="border:none;">
@@ -314,6 +388,7 @@ Warning
 </section>
 <section id="chess" class="level1">
 <h1>Chess</h1>
+<p>TBD</p>
 
 
 </section>
@@ -330,7 +405,7 @@ Warning
 </section></div> ]]></description>
   <category>Academe</category>
   <category>The Game of Go</category>
-  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/The Game of Go.html</guid>
+  <guid>https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/The Game of Go: More than a Game.html</guid>
   <pubDate>Mon, 01 Jan 2024 05:00:00 GMT</pubDate>
   <media:content url="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/Alpha GO.jpg" medium="image" type="image/jpeg"/>
 </item>
