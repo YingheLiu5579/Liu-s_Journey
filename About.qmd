@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: Biography_Headshot.jpeg
+image: addons/Biography_Headshot.jpeg
 about:
   id: about
   template: jolla

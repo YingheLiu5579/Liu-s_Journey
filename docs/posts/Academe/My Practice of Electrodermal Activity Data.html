@@ -84,12 +84,16 @@ gtag('config', 'G-EKVMX1KG8P', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Liu’s Journey - My Practice of Electrodermal Activity Data (EDA).">
 <meta property="og:description" content="Share my practice of electrodermal activity data.">
-<meta property="og:image" content="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/EDA electrodes.png">
+<meta property="og:image" content="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/EDA electrodes.png">
 <meta property="og:site-name" content="Liu's Journey">
 <meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="770">
+<meta property="og:image:width" content="746">
 <meta name="twitter:title" content="Liu’s Journey - My Practice of Electrodermal Activity Data (EDA).">
 <meta name="twitter:description" content="Share my practice of electrodermal activity data.">
-<meta name="twitter:image" content="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/EDA electrodes.png">
+<meta name="twitter:image" content="https://yingheliu5579.github.io/Liu-s_Journey/posts/Academe/img/EDA electrodes.png">
+<meta name="twitter:image-height" content="770">
+<meta name="twitter:image-width" content="746">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -197,20 +201,20 @@ gtag('config', 'G-EKVMX1KG8P', { 'anonymize_ip': true});
 <p>I begin my practice with electrodermal activity data (EDA) from a project named Parent Regulation, Engagement, Stress, and Health (<a href="https://csc.la.psu.edu/research/funded-research-projects/parent-regulation-engagement-stress-and-health-presh/">PRESH</a>) Study. The study is lead by professor Lunkenheimer and administered in Penn State. I am a research assistant that helps with data collection, a job common for a undergraduate.</p>
 <p>The PRESH study aims to investigate the relationship between parent-child interaction and children’s health. More specifically, the study focuses on how the parent-child reaction pattern reacts with disciplinary practices. In conceptual terms, the study is interested in how parent and child’s physiological reaction to each other and disciplinary practices within th framework of laboratory settings. Parents and children are asked to perform a series of tasks, including the Parent-Child Challenge Task (PCCT) and the Trier Social Stress Test (TSST). We collect Heart rate, electrodermal activity, and respiratory rate in both PCCT and TSST. In this post, I will focus on EDA data.</p>
 <blockquote class="blockquote">
-<p><strong><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/icd.1965">PCCT</a></strong> is a 15-minute task that includes a free play, a challenging puzzle task, and a clean-up task. The free play is designed to observe how parents and children interact with each other in a naturalistic, less stressful setting; the puzzle task is intentioanlly above the child’s ability to solve at the age of three, while clean-up task provides us an opportunity to peak into potential conflicts between parents and children that might lead to disciplinary practices. Overall, PCCT enables a contextual observation of parent-child interaction.</p>
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/icd.1965"><strong>PCCT</strong></a> is a 15-minute task that includes a free play, a challenging puzzle task, and a clean-up task. The free play is designed to observe how parents and children interact with each other in a naturalistic, less stressful setting; the puzzle task is intentioanlly above the child’s ability to solve at the age of three, while clean-up task provides us an opportunity to peak into potential conflicts between parents and children that might lead to disciplinary practices. Overall, PCCT enables a contextual observation of parent-child interaction.</p>
 </blockquote>
 <blockquote class="blockquote">
-<p><strong><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5314443/">TSST</a></strong> is a well-established stress-inducing task that focuses more on how one individual reacts to stress. The a 10-minute task contains a five-minute a five-minute speech and a five-minute math task. Just image that you are asked to give a speech in front of a group of people and then do some math problems without any feeedback from the interviewer. The stressful paradigm leads to stress-related response, such as physiological arousal and behavioral regulation.</p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5314443/"><strong>TSST</strong></a> is a well-established stress-inducing task that focuses more on how one individual reacts to stress. The a 10-minute task contains a five-minute a five-minute speech and a five-minute math task. Just image that you are asked to give a speech in front of a group of people and then do some math problems without any feeedback from the interviewer. The stressful paradigm leads to stress-related response, such as physiological arousal and behavioral regulation.</p>
 </blockquote>
 <p>As part of physio team in the PRESH study, I am responsible for EDA data cleaning but not later-on analysis. We separate the data collection staff and data analysis staff to avoid potential bias. I do not have much experience with EDA data, so I am learning from the very beginning. My first question is: <strong>what is EDA</strong>?</p>
 <blockquote class="blockquote">
-<p><strong><a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/electrodermal-activity">Electrodermal activity (EDA)</a></strong> refers to small changes in the electrical activity of the skin, usually occurring 1–3 seconds following the onset of a stimulus. Since the late 19th century, it has been recognized as a useful measurement to estimate human emotional responses, especially under stressful situations. Historically, it has had many past names, such as sympathetic skin response (SSR) or skin conductance level (SCL). The term EDA is now used to refer to the entire electrodermal phenomenon, including both tonic and phasic components.</p>
+<p><a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/electrodermal-activity"><strong>Electrodermal activity (EDA)</strong></a> refers to small changes in the electrical activity of the skin, usually occurring 1–3 seconds following the onset of a stimulus. Since the late 19th century, it has been recognized as a useful measurement to estimate human emotional responses, especially under stressful situations. Historically, it has had many past names, such as sympathetic skin response (SSR) or skin conductance level (SCL). The term EDA is now used to refer to the entire electrodermal phenomenon, including both tonic and phasic components.</p>
 </blockquote>
 <p>My training began in the early June of 2023. I was given a brief introduction of EDA and the data collection process and then taught how to use the software to clean the EDA data. Physio data are not always immediately usable and require cleaning based on raw data. The complexity of cleaning process depends on the type of data, varying dramatically from one to another. For example, EDA data are impacted by many artifacts, while heart rate data are relatively less demanding and less time-consuming.</p>
 <p>Here is the overall workflow of EDA data cleaning:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="EDA process.png" class="img-fluid figure-img"></p>
+<p><img src="img/EDA process.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">EDA data cleaning workflow</figcaption>
 </figure>
 </div>

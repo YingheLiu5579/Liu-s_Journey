@@ -4,11 +4,10 @@ author: "Yinghe Liu"
 date: "2024-1-1"
 date-modified: "2024-4-11"
 categories: [Academe, The Game of Go] 
-image: Alpha GO.jpg
+image: img/Alpha GO.jpg
 description: "Go means more than just a game, but a key to approach human intelligence"
 lang: en
 ---
-
 
 # The Competitive Nature of Go
 
@@ -20,7 +19,7 @@ More efficient methods of fitting optimal models have changed how Go enthusiasts
 
 In fact, time constraints in Go have evolved over the past decades. Multi-day formats were very popular in Japan in the last century, and now only a few major tournaments retain this format. I once wrote an assignment for a writing class, pretending to be an advisor who supports this view. In my view, reducing time constraints in competitive play effectively maintains the competitiveness of Go. In this scenario, the competitiveness of Go is no longer just about understanding the game, but about balancing understanding of the game with effective decision-making within a limited time.
 
-<iframe src="Reform of Time rule.pdf" width="100%" height="500px" style="border:none;">
+<iframe src="img/Reform of Time rule.pdf" width="100%" height="500px" style="border:none;">
 
 </iframe>
 
@@ -63,6 +62,5 @@ Here we reach preliminary conclusions about the game of GO:
 It's particularly important to emphasize that the key conditions required for empirical research are imperfect in the field of Go, so some traits that are difficult to quantify may be overlooked. Other factors I can think of include: age when starting to play Go, training duration, economic status. What about other board games?
 
 # Chess
-
 
 TBD

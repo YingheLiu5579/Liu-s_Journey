@@ -21,13 +21,13 @@ I am thus optimistic about the development of AI, and feeling the opposite for u
 
 I had witnessed how AI changed one industry once. AI ruined my pleasure in discovering new patterns in the game of Go (refer to previous posts) along with a more objective standard in scaling. Back then, I would not imaging myself writing to record my random thoughts about it. Interesting to see how life changes.
 
-:::{.endnote}
+::: endnote
 
----
+------------------------------------------------------------------------
 
 Jan 16, 2024 Updates
 
 I tried to use the GTPs store offered by OpenAI. It is still a limited service now, but still capable in making me a logo for this website. To my awareness, I am not sure whether such image might invade anyone's interest, so I won't use it. I would like to show everyone what it is like:
 
-<img src="Logo.png" alt="Logo for the website" class="no-css-effect">
+<img src="img/Logo.png" alt="Logo for the website" class="no-css-effect"/>
 :::

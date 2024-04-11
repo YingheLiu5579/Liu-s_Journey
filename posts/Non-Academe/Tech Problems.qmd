@@ -23,7 +23,7 @@ Something went wrong when I tried to render the website. It is stuck in one of m
 
 Dec 31 2023 Update: I figured out the problem in the quarto official guideline. The `Freeze` function is used during rendering. Add `Freeze: True` to force rendering.
 
-![Render Issue](Render%20Issue.png)
+![Render Issue](img/Render Issue.png)
 
 Link to the guideline: <a href="https://quarto.org/docs/output-formats/html-basics.html">https://quarto.org/docs/output-formats/html-basics.html</a>
 

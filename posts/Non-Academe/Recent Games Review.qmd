@@ -5,9 +5,10 @@ date: "2024-1-16"
 categories: [Non-Academe]
 description: "A review on the games I recently played: The Elden Ring, The Witcher 3, and Portal 2"
 ---
+
 After acquiring the new Steam Deck OLED, my device finally has enough performance to run some larger games, among which The Witcher 3 and Elden Ring have been the most addictive for me. Additionally, I've tried many multiplayer games with FEI, but the quality of these games varies greatly.
 
-**The Witcher 3: Wild Hunt **
+**The Witcher 3: Wild Hunt**
 
 The Witcher 3 has been in my library for a year, but my previous gameplay experience was limited to the tutorial due to insufficient device performance. The new device motivated me to try it again on a new platform. I spent about fifty hours around the Christmas holiday to complete the main storyline of The Witcher 3, stopping just before the last stop of Ciri's journey. Having already seen the plot in the Netflix series, I lost interest in the game's storyline and had little expectation for the "finding the daughter" plot development. I even bought the DLC, but it might wait until the next holiday to be played.
 
@@ -19,8 +20,7 @@ The Elden Ring is incredibly fun and very much to my taste! I've been engrossed 
 
 The absence of excessive tutorials and storylines is great! I dislike when narrative takes precedence over gameplay, forcing me to focus on the main story. In the Elden Ring, I can freely explore the map and choose quests. Gradually piecing together hidden stories by exploring and interpreting texts is rewarding. The combat system, with its variety of weapons like two-handed, one-handed, shields, magic, bows, and even fists, is fantastic. I chose berserker without any spoilers, which was challenging. I'm looking forward to trying different builds, perhaps a noble mage in my next run. The variety of prayers and summons also satisfies my curiosity.
 
-![Memes from IGN](Elden Ring IGN Meme .jpeg)
-_**Memes draw from IGN.** Unique notes system allows players to leave messages for others. Sometimes the messages are helpful only in certain language context._
+![Memes from IGN](img/Elden Ring IGN Meme .jpeg) ***Memes draw from IGN.** Unique notes system allows players to leave messages for others. Sometimes the messages are helpful only in certain language context.*
 
 However, there are drawbacks. The game's exquisite graphics, wallpaper-worthy screenshots, demand high performance; my Steam Deck can only maintain 30-40 FPS, and I experience graphic tearing when moving fast. Another issue is the game's unchangeable difficulty level. Although I appreciate not having to choose a difficulty, the strict death penalty might deter some players. As a fan of rogue-like games, this isn't a big problem for me.
 

@@ -4,10 +4,10 @@ author: "Yinghe Liu"
 date: "2024-1-10"
 categories: [Non-Academe, Announcement]
 description: "The website is now available to the public!!!"
-
 ---
-After two weeks of preparation, the website is now available to the public!!! I have to confess I stop working on the website for a while because I was busy with "The elden ring" and "The Witcher 3". But now I am back to work and I will try to update the website as often as possible. 
+
+After two weeks of preparation, the website is now available to the public!!! I have to confess I stop working on the website for a while because I was busy with "The elden ring" and "The Witcher 3". But now I am back to work and I will try to update the website as often as possible.
 
 **What's next**
 
-I will try to add more content to the website and enable google analytics so that people can locate the website by search engine. Currently, I am still adapting the new semester. I will be focusing on finishing the rest content of "my lifestory" and "EDA-related posts". 
+I will try to add more content to the website and enable google analytics so that people can locate the website by search engine. Currently, I am still adapting the new semester. I will be focusing on finishing the rest content of "my lifestory" and "EDA-related posts".
