@@ -4,7 +4,6 @@ author: "Yinghe Liu"
 date: "2024-1-1"
 date-modified: "2024-4-11"
 categories: [Academe, The Game of Go] 
-image: img/Alpha GO.jpg
 description: "Go means more than just a game, but a key to approach human intelligence"
 lang: en
 ---

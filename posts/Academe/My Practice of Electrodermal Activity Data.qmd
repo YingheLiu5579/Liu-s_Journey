@@ -4,7 +4,6 @@ author: "Yinghe Liu"
 date: "2023-12-29"
 date-modified: "2023-12-30"
 categories: [Academe, Electrodermal Activity] 
-image: img/EDA electrodes.png
 description: "Share my practice of electrodermal activity data."
 ---
 
@@ -24,7 +23,7 @@ My training began in the early June of 2023. I was given a brief introduction of
 
 Here is the overall workflow of EDA data cleaning:
 
-![EDA data cleaning workflow](img/EDA process.png)
+![EDA data cleaning workflow](img/EDA%20process.png)
 
 We followed guidelines provided by out technique support [MindWare](https://support.mindwaretech.com/manuals/software/eda/3-2/). But the guidelines are not always clear and easy to follow. I will share my experience and practice in the following sections. A typical EDA cleaning process of one file (one parent and one child) takes me about 40 to 60 minutes. For messy files that require more attention, it can take up to 80 minutes. The cleaning process is time-consuming because we need to go through the entire file and check for artifacts. Once a file is editted, we update the result with the group and decide whether a doubling-edit is needed. EDA data are sensitive to artifacts, so we need to be careful with the cleaning process. We are aware of the potential bias introduced by the cleaning process, so we are trying to minimize the impact of cleaning process on the final result. Thus, we are trying to be as objective as possible by assigning the same raw data to different group memeber and compare the results.
 

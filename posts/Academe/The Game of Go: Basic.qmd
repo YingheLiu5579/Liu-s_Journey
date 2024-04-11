@@ -14,7 +14,7 @@ My exposure to Go began as a childhood interest. Many Chinese parents encourage 
 
 Before delving into a detailed discussion, it's necessary to define our subject: Go. Go is a board game where two players alternately place stones on a board. Once placed, the stones cannot be moved. When a player's stones are completely surrounded by the opponent's, they are removed from the board. The game ends when a certain number of stones are removed, and the player with more stones remaining on the board wins. A standard Go board is a 19x19 grid, and the stones are black and white, placed at the dots (intersections of lines). The Go board looks like the following image:
 
-![A 19 \*19 grid Go Board](img/GO board.jpg){fig-alt="A 19 * 19 size Go board." width="50%" fig-align="left"}
+![A 19 \*19 grid Go Board](img/GO%20board.jpg){fig-alt="A 19 * 19 size Go board." width="50%" fig-align="left"}
 
 ## Basic
 

@@ -3,7 +3,6 @@ title: "Welcome To My Blog!"
 author: "Yinghe Liu"
 date: "2023-12-29"
 categories: [Non-Academe, Announcement]
-image: img/Biography_Headshot.jpeg 
 description: "Say Hello to the world! This is my first blog post."
 ---
 

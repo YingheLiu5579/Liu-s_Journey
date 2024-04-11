@@ -4,7 +4,6 @@ author: "Yinghe Liu"
 date: "2024-1-8"
 categories: [Academe, Electrodermal Activity] 
 description: "Discuss to what impacts consistent results of EDA"
-image: img/Respiration Rate.png
 ---
 
 ::: callout-note
