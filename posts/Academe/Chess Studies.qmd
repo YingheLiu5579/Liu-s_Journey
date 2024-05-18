@@ -1,0 +1,28 @@
+---
+title: "Chess Studies Review"
+author: "Yinghe Liu"
+date: "2024-1-1"
+date-modified: "2024-4-11"
+categories: [Academe, The Game of Go] 
+description: "In the field of psychology, chess games, especially chess, have become an important subject of study due to their complex cognitive demands and strategic nature."
+lang: en
+---
+
+# Chess
+
+
+
+Chess studies are **rich!** I feel so glad when I realized people share the interest with me. The primary goals of Chess studies focus on the following topics:
+
+- Expertise Knowledge
+- Game as interventions for disorders
+- Game as educational tool
+- deliiberate practice 
+- object and pattern recognition /visuospatial representations
+  - Bilalić, M., Langner, R., Erb, M., & Grodd, W. (2010). Mechanisms and neural basis of object and pattern recognition: a study with chess experts. *Journal of Experimental Psychology: General*, *139*(4), 728.
+
+- decesion making 
+  - Saariluoma, P. (1995). *Chess players' thinking: A cognitive psychological approach*. Psychology Press.
+- Memory 
+- Individual difference in social-emotional cotext / personality
+- 
