@@ -6,6 +6,7 @@ date-modified: "2024-4-11"
 categories: [Academe, The Game of Go] 
 description: "In the field of psychology, chess games, especially chess, have become an important subject of study due to their complex cognitive demands and strategic nature."
 lang: en
+draft: True
 ---
 
 # Chess
